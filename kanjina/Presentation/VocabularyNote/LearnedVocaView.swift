@@ -26,7 +26,7 @@ struct LearnedVocaView: View {
     private var resultList: [(title: String, items: [LearningKanji])] {
         let type = LearnedVocaType.allCases[selectIndex]
         
-        return viewModel.state.searchLearnedKanjiList.map { list in
+        return viewModel.state.searchLearnedKanjiList.compactMap { list in
             switch type {
             case .all:
                 return list
@@ -35,7 +35,12 @@ struct LearnedVocaView: View {
                 return (list.title, list.items.filter { $0.isSuccessful })
                 
             case .needToStudy:
-                return (list.title, list.items.filter { !$0.isSuccessful })
+                let items = list.items.filter { !$0.isSuccessful }
+                if items.isEmpty {
+                    return nil
+                } else {
+                    return (list.title, items)
+                }
             }
         }
     }
