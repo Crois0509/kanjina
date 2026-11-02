@@ -13,7 +13,7 @@ struct AppCoordinatorView: View {
     @StateObject private var appCoordinator: AppCoordinator
     @StateObject private var viewModel: KanjiViewModel
     
-    @State private var isOnboarding: Bool = true
+    @State private var isLaunchView: Bool = true
     
     private let diContainer: DIContainer
     
@@ -25,7 +25,7 @@ struct AppCoordinatorView: View {
     
     var body: some View {
         ZStack {
-            if isOnboarding {
+            if isLaunchView {
                 OnboardingView()
                     .transition(.opacity)
             } else {
@@ -33,10 +33,10 @@ struct AppCoordinatorView: View {
                     .environmentObject(viewModel)
             }
         }
-        .animation(.easeInOut, value: isOnboarding)
+        .animation(.easeInOut, value: isLaunchView)
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                self.isOnboarding = false
+                self.isLaunchView = false
             }
         }
         .task {
