@@ -90,8 +90,8 @@ struct KanjiDetailView: View {
                         .foregroundStyle(isBookmarked ? .gray : .white)
                         .multilineTextAlignment(.center)
                         .padding(.vertical, 10)
+                        .frame(maxWidth: .infinity)
                 }
-                .frame(maxWidth: .infinity)
                 .background(isBookmarked ? .gray.opacity(0.2) : .accent)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
                 .overlay {
