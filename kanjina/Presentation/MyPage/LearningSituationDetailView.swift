@@ -53,7 +53,7 @@ fileprivate struct LearningReportView: View {
         JLPTGrade.N5.rawValue: Color.N5.main
     ]
     
-    init(learningKanjiList: [(kanji: Kanji, isSuccessful: Bool)]) {
+    init(learningKanjiList: [LearningKanji]) {
         let dic = Dictionary(grouping: learningKanjiList.map { $0.kanji }, by: { $0.grade })
         var results: [(type: String, Int)] = []
         

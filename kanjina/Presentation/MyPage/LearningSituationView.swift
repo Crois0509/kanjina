@@ -24,7 +24,7 @@ struct LearningSituationView: View {
         results.reduce(0) { $0 + $1.count }
     }
     
-    init(learningKanjiList: [(Kanji, isSuccessful: Bool)]) {
+    init(learningKanjiList: [LearningKanji]) {
         let successfulCount = learningKanjiList.count(where: { $0.isSuccessful })
         let failCount = learningKanjiList.count - successfulCount
         

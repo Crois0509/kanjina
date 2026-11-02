@@ -141,7 +141,7 @@ extension CoreDataManager {
 
 extension CoreDataManager {
     
-    func fetchAllRecords() -> [(Kanji, Bool)] {
+    func fetchAllRecords() -> [LearningKanji] {
         let request: NSFetchRequest<KanjiEntity> = KanjiEntity.fetchRequest()
         
         let sortDescriptor = NSSortDescriptor(keyPath: \KanjiEntity.learningDate, ascending: false)
@@ -160,15 +160,17 @@ extension CoreDataManager {
                     return nil
                 }
                 
-                return (
-                    Kanji(
-                        kanji: kanji,
-                        hiragana: hiragana,
-                        meaningEn: meaningEn,
-                        meaningKo: meaningKo,
-                        grade: grade
-                    ),
-                    result.successful
+                let learningKanji = Kanji(
+                    kanji: kanji,
+                    hiragana: hiragana,
+                    meaningEn: meaningEn,
+                    meaningKo: meaningKo,
+                    grade: grade
+                )
+                
+                return LearningKanji(
+                    kanji: learningKanji,
+                    isSuccessful: result.successful
                 )
             }
             

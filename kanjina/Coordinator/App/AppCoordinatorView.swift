@@ -11,6 +11,7 @@ import CoreData
 struct AppCoordinatorView: View {
     
     @StateObject private var appCoordinator: AppCoordinator
+    @StateObject private var appViewModel: AppViewModel
     @StateObject private var viewModel: KanjiViewModel
     
     @State private var isLaunchView: Bool = true
@@ -19,6 +20,7 @@ struct AppCoordinatorView: View {
     
     init(appCoordinator: AppCoordinator, diContainer: DIContainer) {
         self._appCoordinator = StateObject(wrappedValue: appCoordinator)
+        self._appViewModel = StateObject(wrappedValue: diContainer.appViewModel)
         self._viewModel = StateObject(wrappedValue: diContainer.viewModel)
         self.diContainer = diContainer
     }
@@ -40,43 +42,23 @@ struct AppCoordinatorView: View {
             }
         }
         .task {
-            await viewModel.fetchKanjiData()
-            viewModel.fetchLearningList()
-            viewModel.fetchStudySummary()
-            viewModel.fetchBookmarkKanjiList()
+            await appViewModel.fetchKanjiData()
+            appViewModel.fetchLearningList()
+            appViewModel.fetchStudySummary()
+            appViewModel.fetchBookmarkKanjiList()
         }
         .onReceive(NotificationCenter.default.publisher(for: .NSManagedObjectContextDidSave, object: diContainer.coreDataManager.container.viewContext)) { notification in
-            handleCoreDataSave(notification: notification)
+            appViewModel.handleCoreDataSave(notification: notification)
         }
-    }
-    
-    private func handleCoreDataSave(notification: Notification) {
-        guard let userInfo = notification.userInfo else { return }
-        
-        let inserted = userInfo[NSInsertedObjectsKey] as? Set<NSManagedObject> ?? []
-        let updated = userInfo[NSUpdatedObjectsKey] as? Set<NSManagedObject> ?? []
-        let deleted = userInfo[NSDeletedObjectsKey] as? Set<NSManagedObject> ?? []
-        let allChanges = inserted.union(updated).union(deleted)
-        
-        let didChangeLearningKanjiData = allChanges.contains { object in
-            let entityName = object.entity.name
-            return entityName == CoreDataConfig.kanji
-        }
-        
-        let didChangeStudyData = allChanges.contains { object in
-            let entityName = object.entity.name
-            return entityName == CoreDataConfig.study
-        }
-        
-        if didChangeLearningKanjiData {
-            viewModel.fetchLearningList()
-            viewModel.fetchBookmarkKanjiList()
-            debugPrint("✅ 학습한 한자 리스트 불러오기 완료")
-        }
-        
-        if didChangeStudyData {
-            viewModel.fetchStudySummary()
-            debugPrint("✅ 학습기록 리스트 불러오기 완료")
+        .onChange(of: appViewModel.state) { _, state in
+            viewModel.updateState(
+                jlpt: state.jlpt,
+                numberOfKanjiByGrade: state.numberOfKanjiByGrade,
+                learningKanjiList: state.learningKanjiList,
+                dailyStudySummary: state.dailyStudySummary,
+                bookmarkKanjiList: state.bookmarkKanjiList,
+                cachedKanjisByGrade: state.cachedKanjisByGrade
+            )
         }
     }
 }

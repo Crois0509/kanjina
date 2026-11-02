@@ -102,3 +102,8 @@ struct KanjiList: Hashable {
     let level: Int
     let kanjis: [Kanji]
 }
+
+struct LearningKanji: Hashable {
+    let kanji: Kanji
+    let isSuccessful: Bool
+}

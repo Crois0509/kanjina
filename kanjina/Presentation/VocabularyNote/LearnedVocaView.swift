@@ -23,7 +23,7 @@ struct LearnedVocaView: View {
     @State private var selectIndex = 0
     @State private var isMemorizationMode = false
     
-    private var resultList: [(title: String, items: [(kanji: Kanji, isSuccessful: Bool)])] {
+    private var resultList: [(title: String, items: [LearningKanji])] {
         let type = LearnedVocaType.allCases[selectIndex]
         
         return viewModel.state.searchLearnedKanjiList.map { list in
@@ -70,16 +70,16 @@ struct LearnedVocaView: View {
                                     ForEach(resultList, id: \.title) { section in
                                         CommonSectionView(title: section.title)
                                         
-                                        ForEach(section.items, id: \.kanji) { items in
+                                        ForEach(section.items, id: \.kanji) { item in
                                             ListCell(
                                                 isMemorizationMode: $isMemorizationMode,
-                                                element: items,
+                                                element: (item.kanji, item.isSuccessful),
                                                 superViewSize: geometry.size,
                                                 type: .learned
                                             )
                                             .padding(.top, 12)
                                             .onTapGesture {
-                                                setSheetState(items)
+                                                setSheetState(item)
                                                 sheetState.isShowSheet = true
                                             }
                                         }
@@ -121,7 +121,7 @@ struct LearnedVocaView: View {
         }
     }
     
-    private func setSheetState(_ item: (kanji: Kanji, isSuccessful: Bool)) {
+    private func setSheetState(_ item: LearningKanji) {
         sheetState.kanji = item.kanji
         sheetState.isSuccessful = item.isSuccessful
         sheetState.isBookmarked = viewModel.checkBookmarked(kanji: item.kanji)

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DailyStudy {
+struct DailyStudy: Hashable {
     let date: Date
     var totalStudyMinutes: Int
     var correctCount: Int

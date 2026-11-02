@@ -7,15 +7,17 @@
 
 import SwiftUI
 import Combine
+import CoreData
 
 struct ViewModelState {
     var isLoading: Bool = false // 현재 로딩 상태
     var jlpt: [[KanjiList]] = [] // 전체 한자 리스트
     var numberOfKanjiByGrade: [Int] = [] // 급수별 한자 수
+    var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:]
     
-    var learningKanjiList: [(kanji: Kanji, isSuccessful: Bool)] = [] // 학습한 한자 리스트
+    var learningKanjiList: [LearningKanji] = [] // 학습한 한자 리스트
     var dailyStudySummary: [DailyStudy] = [] // 학습한 시간 리스트
-    var searchLearnedKanjiList: [(title: String, items: [(kanji: Kanji, isSuccessful: Bool)])] = [] // 검색한 학습 한자 리스트
+    var searchLearnedKanjiList: [(title: String, items: [LearningKanji])] = [] // 검색한 학습 한자 리스트
     var searchVocaKanjiList: [(title: String, items: [Kanji])] = []
     
     var bookmarkKanjiList: [Kanji] = [] // 북마크한 한자 리스트
@@ -34,14 +36,17 @@ final class KanjiViewModel: ObservableObject {
     @Published var state = ViewModelState()
     @Published var toastAlarm = ToastAlarm()
     
-    private let kanjiManager = KanjiDataManager()
+    private let kanjiManager: KanjiDataManager
     private let coreDataManager: CoreDataManager
     
     private var timer: Timer? = nil
     private var searchTask: Task<Void, Never>?
-    private var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:]
     
-    init(coreDataManager: CoreDataManager) {
+    init(
+        kanjiManager: KanjiDataManager,
+        coreDataManager: CoreDataManager
+    ) {
+        self.kanjiManager = kanjiManager
         self.coreDataManager = coreDataManager
     }
 }
@@ -50,38 +55,22 @@ final class KanjiViewModel: ObservableObject {
 
 @MainActor
 extension KanjiViewModel {
-    /// 모든 한자 리스트를 불러오는 메서드
-    func fetchKanjiData() async {
-        do {
-            let kanjiData = try kanjiManager.loadAllKanjiData()
-            self.state.jlpt = kanjiData.map { $0.kanjiLists }
-            self.state.numberOfKanjiByGrade = kanjiData.map { $0.totalKanjiCount }
-            buildCache()
-            
-        } catch {
-            debugPrint("🚨 알 수 없는 에러", error.localizedDescription)
-        }
-    }
     
-    func buildCache() {
-        for (index, levelLists) in state.jlpt.enumerated() {
-            let grade = JLPTGrade.allCases[index]
-            cachedKanjisByGrade[grade] = levelLists.flatMap { $0.kanjis }
-        }
-    }
-    
-    /// 학습한 한자 목록을 불러오는 메서드
-    func fetchLearningList() {
-        state.learningKanjiList = coreDataManager.fetchAllRecords()
-    }
-    
-    /// 학습한 날짜와 시간을 불러오는 메서드
-    func fetchStudySummary() {
-        state.dailyStudySummary = coreDataManager.fetchLearningWeeklyTimeList()
-    }
-    
-    func fetchBookmarkKanjiList() {
-        state.bookmarkKanjiList = coreDataManager.fetchBookmarkKanjis().removingDuplicates()
+    /// KanjiViewModel의 주요 State를 업데이트 하는 메서드
+    func updateState(
+        jlpt: [[KanjiList]],
+        numberOfKanjiByGrade: [Int],
+        learningKanjiList: [LearningKanji],
+        dailyStudySummary: [DailyStudy],
+        bookmarkKanjiList: [Kanji],
+        cachedKanjisByGrade: [JLPTGrade: [Kanji]]
+    ) {
+        self.state.jlpt = jlpt
+        self.state.numberOfKanjiByGrade = numberOfKanjiByGrade
+        self.state.learningKanjiList = learningKanjiList
+        self.state.dailyStudySummary = dailyStudySummary
+        self.state.bookmarkKanjiList = bookmarkKanjiList
+        self.state.cachedKanjisByGrade = cachedKanjisByGrade
     }
     
     /// 현재 학습 중인 한자 리스트를 업데이트 하는 메서드
@@ -251,7 +240,7 @@ extension KanjiViewModel {
         state.searchVocaKanjiList.removeAll()
     }
     
-    private func performFilter(for input: String) async -> [(kanji: Kanji, isSuccessful: Bool)] {
+    private func performFilter(for input: String) async -> [LearningKanji] {
         let query = input.trimmingCharacters(in: .whitespaces).lowercased()
         
         guard !query.isEmpty else { return state.learningKanjiList }
@@ -262,7 +251,7 @@ extension KanjiViewModel {
     
     private func performFilter(for input: String, segmentIndex: Int) async -> [Kanji] {
         let grade = JLPTGrade.allCases[segmentIndex]
-        let targetList = cachedKanjisByGrade[grade] ?? []
+        let targetList = state.cachedKanjisByGrade[grade] ?? []
         
         if input.isEmpty {
             return targetList
@@ -280,7 +269,7 @@ extension KanjiViewModel {
         .sorted(by: { $0.title < $1.title })
     }
     
-    func groupedLearnedList(_ list: [(kanji: Kanji, Bool)]) -> [(String, [(Kanji, Bool)])] {
+    func groupedLearnedList(_ list: [LearningKanji]) -> [(String, [LearningKanji])] {
         let dic = Dictionary(grouping: list, by: { getHiraganaRow(for: $0.kanji.hiragana) })
         return dic.map { item in
             (title: item.key, item.value.sorted(by: { $0.kanji.hiragana < $1.kanji.hiragana }))
