@@ -9,4 +9,5 @@ import Foundation
 
 enum UserDefaultsConfig {
     static let timeLimit = "timeLimit"
+    static let resetTrigger = "resetTrigger"
 }

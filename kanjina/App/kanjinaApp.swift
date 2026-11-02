@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct kanjinaApp: App {
         
-    @AppStorage("resetTrigger") private var resetTrigger: String = UUID().uuidString
+    @AppStorage(UserDefaultsConfig.resetTrigger) private var resetTrigger: String = UUID().uuidString
     
     private let diContainer = DIContainer()
     

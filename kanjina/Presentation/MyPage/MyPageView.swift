@@ -12,7 +12,7 @@ struct MyPageView: View {
     @EnvironmentObject private var coordinator: MyPageCoordinator
     @EnvironmentObject private var viewModel: KanjiViewModel
     
-    @AppStorage("resetTrigger") private var resetTrigger: String = ""
+    @AppStorage(UserDefaultsConfig.resetTrigger) private var resetTrigger: String = ""
     @AppStorage(UserDefaultsConfig.timeLimit) private var timeLimit: Int = 5
     
     @State private var isShowingResetAlert: Bool = false
