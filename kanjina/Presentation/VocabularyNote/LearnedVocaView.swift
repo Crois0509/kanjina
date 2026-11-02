@@ -1,0 +1,133 @@
+//
+//  LearnedVocaView.swift
+//  kanjina
+//
+//  Created by 장상경 on 5/8/26.
+//
+
+import SwiftUI
+
+struct LearnedVocaView: View {
+    
+    enum LearnedVocaType: String, CaseIterable {
+        case all = "전체"
+        case studied = "알고 있음"
+        case needToStudy = "모름"
+    }
+    
+    @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
+    @EnvironmentObject private var viewModel: KanjiViewModel
+    @EnvironmentObject private var sheetState: SheetState
+    
+    @State private var searchInput = ""
+    @State private var selectIndex = 0
+    @State private var isMemorizationMode = false
+    
+    private var resultList: [(title: String, items: [(kanji: Kanji, isSuccessful: Bool)])] {
+        let type = LearnedVocaType.allCases[selectIndex]
+        
+        return viewModel.state.searchLearnedKanjiList.map { list in
+            switch type {
+            case .all:
+                return list
+                
+            case .studied:
+                return (list.title, list.items.filter { $0.isSuccessful })
+                
+            case .needToStudy:
+                return (list.title, list.items.filter { !$0.isSuccessful })
+            }
+        }
+    }
+    
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack(alignment: .top) {
+                VStack(alignment: .center, spacing: 16) {
+                    CommonSearchView(
+                        input: $searchInput,
+                        placeholder: "한자, 뜻, 히라가나 등으로 검색해 주세요"
+                    )
+                    .padding(.horizontal, 20)
+                    
+                    CommonSegmentedControl(
+                        selection: $selectIndex,
+                        items: LearnedVocaType.allCases.map { $0.rawValue }
+                    )
+                    
+                    if resultList.allSatisfy({ $0.items.isEmpty }) {
+                        Text(searchInput.isEmpty ? "학습한 단어가 없습니다." : "검색 결과가 없습니다.")
+                            .multilineTextAlignment(.center)
+                            .font(.shoraiSans(size: 18, weight: .demi))
+                            .foregroundStyle(.gray)
+                        
+                        Spacer()
+                        
+                    } else {
+                        ScrollViewReader { scrollProxy in
+                            ScrollView {
+                                LazyVStack(alignment: .leading, spacing: 0) {
+                                    ForEach(resultList, id: \.title) { section in
+                                        CommonSectionView(title: section.title)
+                                        
+                                        ForEach(section.items, id: \.kanji) { items in
+                                            ListCell(
+                                                isMemorizationMode: $isMemorizationMode,
+                                                element: items,
+                                                superViewSize: geometry.size,
+                                                type: .learned
+                                            )
+                                            .padding(.top, 12)
+                                            .onTapGesture {
+                                                setSheetState(items)
+                                                sheetState.isShowSheet = true
+                                            }
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal, 20)
+                                .padding(.bottom, 10)
+                            }
+                            .scrollDismissesKeyboard(.immediately)
+                            .overlay(alignment: .trailing) {
+                                CommonScrollIndicatorView(
+                                    indicatorTitles: resultList.map { $0.title },
+                                    action: { title in
+                                        withAnimation {
+                                            scrollProxy.scrollTo(title, anchor: .top)
+                                        }
+                                    }
+                                )
+                            }
+                        }
+                    }
+                }
+                .padding(.top, 10)
+            }
+            .overlay(alignment: .bottomTrailing) {
+                MemorizationButton(isMemorizationMode: $isMemorizationMode)
+                    .padding()
+            }
+        }
+        .navigationTitle("학습한 단어장")
+        .onAppear {
+            viewModel.updateLearnedSearch(for: "")
+        }
+        .onDisappear {
+            viewModel.resetSearch()
+        }
+        .onChange(of: searchInput) { _, newValue in
+            viewModel.updateLearnedSearch(for: newValue)
+        }
+    }
+    
+    private func setSheetState(_ item: (kanji: Kanji, isSuccessful: Bool)) {
+        sheetState.kanji = item.kanji
+        sheetState.isSuccessful = item.isSuccessful
+        sheetState.isBookmarked = viewModel.checkBookmarked(kanji: item.kanji)
+    }
+}
+
+#Preview {
+    LearnedVocaView()
+}

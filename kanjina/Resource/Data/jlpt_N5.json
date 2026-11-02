@@ -1,0 +1,4097 @@
+[
+  {
+    "kanji": "会う",
+    "hiragana": "あう",
+    "meaningEn": "meet",
+    "meaningKo": "만나다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "青",
+    "hiragana": "あお",
+    "meaningEn": "blue",
+    "meaningKo": "블루",
+    "grade": "N5"
+  },
+  {
+    "kanji": "青い",
+    "hiragana": "あおい",
+    "meaningEn": "blue",
+    "meaningKo": "푸른",
+    "grade": "N5"
+  },
+  {
+    "kanji": "赤",
+    "hiragana": "あか",
+    "meaningEn": "red",
+    "meaningKo": "레드",
+    "grade": "N5"
+  },
+  {
+    "kanji": "赤い",
+    "hiragana": "あかい",
+    "meaningEn": "red",
+    "meaningKo": "붉은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "明い",
+    "hiragana": "あかるい",
+    "meaningEn": "bright",
+    "meaningKo": "밝은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "秋",
+    "hiragana": "あき",
+    "meaningEn": "autumn",
+    "meaningKo": "가을",
+    "grade": "N5"
+  },
+  {
+    "kanji": "開ける",
+    "hiragana": "あける",
+    "meaningEn": "open",
+    "meaningKo": "열다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "上げる",
+    "hiragana": "あげる",
+    "meaningEn": "increase",
+    "meaningKo": "올리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "朝",
+    "hiragana": "あさ",
+    "meaningEn": "morning",
+    "meaningKo": "아침",
+    "grade": "N5"
+  },
+  {
+    "kanji": "朝御飯",
+    "hiragana": "あさごはん",
+    "meaningEn": "Breakfast",
+    "meaningKo": "아침밥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あさって",
+    "hiragana": "あさって",
+    "meaningEn": "The day after",
+    "meaningKo": "어서",
+    "grade": "N5"
+  },
+  {
+    "kanji": "足",
+    "hiragana": "あし",
+    "meaningEn": "feet",
+    "meaningKo": "발",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あそこ",
+    "hiragana": "あそこ",
+    "meaningEn": "over there",
+    "meaningKo": "저기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "遊ぶ",
+    "hiragana": "あそぶ",
+    "meaningEn": "play",
+    "meaningKo": "놀다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "暖かい",
+    "hiragana": "あたたかい",
+    "meaningEn": "warm",
+    "meaningKo": "따뜻한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "頭",
+    "hiragana": "あたま",
+    "meaningEn": "head",
+    "meaningKo": "머리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "新しい",
+    "hiragana": "あたらしい",
+    "meaningEn": "new",
+    "meaningKo": "새로운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あちら",
+    "hiragana": "あちら",
+    "meaningEn": "there",
+    "meaningKo": "저기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "暑い",
+    "hiragana": "あつい",
+    "meaningEn": "hot",
+    "meaningKo": "뜨거운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "熱い",
+    "hiragana": "あつい",
+    "meaningEn": "hot",
+    "meaningKo": "뜨거운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "厚い",
+    "hiragana": "あつい",
+    "meaningEn": "thick",
+    "meaningKo": "두꺼운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あっち",
+    "hiragana": "あっち",
+    "meaningEn": "Over there",
+    "meaningKo": "아치",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あなた",
+    "hiragana": "あなた",
+    "meaningEn": "you",
+    "meaningKo": "너",
+    "grade": "N5"
+  },
+  {
+    "kanji": "兄",
+    "hiragana": "あに",
+    "meaningEn": "older brother",
+    "meaningKo": "오빠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "姉",
+    "hiragana": "あね",
+    "meaningEn": "sister",
+    "meaningKo": "누나",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あの",
+    "hiragana": "あの, あの",
+    "meaningEn": "that",
+    "meaningKo": "그",
+    "grade": "N5"
+  },
+  {
+    "kanji": "アパート",
+    "hiragana": "アパート",
+    "meaningEn": "apartment",
+    "meaningKo": "아파트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あびる",
+    "hiragana": "あびる",
+    "meaningEn": "Abiru",
+    "meaningKo": "가다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "危ない",
+    "hiragana": "あぶない",
+    "meaningEn": "dangerous",
+    "meaningKo": "위험하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あまり",
+    "hiragana": "あまり",
+    "meaningEn": "not much",
+    "meaningKo": "너무",
+    "grade": "N5"
+  },
+  {
+    "kanji": "雨",
+    "hiragana": "あめ",
+    "meaningEn": "rain",
+    "meaningKo": "비",
+    "grade": "N5"
+  },
+  {
+    "kanji": "飴",
+    "hiragana": "あめ",
+    "meaningEn": "candy",
+    "meaningKo": "사탕",
+    "grade": "N5"
+  },
+  {
+    "kanji": "洗う",
+    "hiragana": "あらう",
+    "meaningEn": "wash",
+    "meaningKo": "씻다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ある",
+    "hiragana": "ある",
+    "meaningEn": "be",
+    "meaningKo": "있다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "歩く",
+    "hiragana": "あるく",
+    "meaningEn": "walk",
+    "meaningKo": "걷다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "あれ",
+    "hiragana": "あれ",
+    "meaningEn": "That",
+    "meaningKo": "어",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いいえ",
+    "hiragana": "いいえ",
+    "meaningEn": "no",
+    "meaningKo": "아니오",
+    "grade": "N5"
+  },
+  {
+    "kanji": "家",
+    "hiragana": "いえ",
+    "meaningEn": "house",
+    "meaningKo": "집",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いかが",
+    "hiragana": "いかが",
+    "meaningEn": "How about it?",
+    "meaningKo": "어떠세요",
+    "grade": "N5"
+  },
+  {
+    "kanji": "行く",
+    "hiragana": "いく, ゆく",
+    "meaningEn": "go",
+    "meaningKo": "가다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いくつ",
+    "hiragana": "いくつ",
+    "meaningEn": "how many",
+    "meaningKo": "일부",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いくら",
+    "hiragana": "いくら",
+    "meaningEn": "how much",
+    "meaningKo": "얼마",
+    "grade": "N5"
+  },
+  {
+    "kanji": "池",
+    "hiragana": "いけ",
+    "meaningEn": "pond",
+    "meaningKo": "연못",
+    "grade": "N5"
+  },
+  {
+    "kanji": "医者",
+    "hiragana": "いしゃ",
+    "meaningEn": "doctor",
+    "meaningKo": "의사",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いす",
+    "hiragana": "いす",
+    "meaningEn": "chair",
+    "meaningKo": "이스",
+    "grade": "N5"
+  },
+  {
+    "kanji": "忙しい",
+    "hiragana": "いそがしい",
+    "meaningEn": "busy",
+    "meaningKo": "바쁜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "痛い",
+    "hiragana": "いたい",
+    "meaningEn": "it hurts",
+    "meaningKo": "아프다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "一",
+    "hiragana": "いち",
+    "meaningEn": "one",
+    "meaningKo": "하나",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いちばん",
+    "hiragana": "いちばん",
+    "meaningEn": "number one",
+    "meaningKo": "가장",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いつ",
+    "hiragana": "いつ",
+    "meaningEn": "when",
+    "meaningKo": "언제",
+    "grade": "N5"
+  },
+  {
+    "kanji": "五日",
+    "hiragana": "いつか",
+    "meaningEn": "five days",
+    "meaningKo": "5일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "一緒",
+    "hiragana": "いっしょ",
+    "meaningEn": "together",
+    "meaningKo": "함께",
+    "grade": "N5"
+  },
+  {
+    "kanji": "五つ",
+    "hiragana": "いつつ",
+    "meaningEn": "five",
+    "meaningKo": "5개",
+    "grade": "N5"
+  },
+  {
+    "kanji": "犬",
+    "hiragana": "いぬ",
+    "meaningEn": "dog",
+    "meaningKo": "개",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今",
+    "hiragana": "いま",
+    "meaningEn": "now",
+    "meaningKo": "지금",
+    "grade": "N5"
+  },
+  {
+    "kanji": "意味",
+    "hiragana": "いみ",
+    "meaningEn": "meaning",
+    "meaningKo": "의미",
+    "grade": "N5"
+  },
+  {
+    "kanji": "妹",
+    "hiragana": "いもうと",
+    "meaningEn": "younger sister",
+    "meaningKo": "여동생",
+    "grade": "N5"
+  },
+  {
+    "kanji": "嫌",
+    "hiragana": "いや",
+    "meaningEn": "Dislike",
+    "meaningKo": "미움",
+    "grade": "N5"
+  },
+  {
+    "kanji": "要る",
+    "hiragana": "いる",
+    "meaningEn": "need",
+    "meaningKo": "필요하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "入れる",
+    "hiragana": "いれる",
+    "meaningEn": "put in",
+    "meaningKo": "넣다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "色",
+    "hiragana": "いろ",
+    "meaningEn": "color",
+    "meaningKo": "칼라",
+    "grade": "N5"
+  },
+  {
+    "kanji": "いろいろ",
+    "hiragana": "いろいろ",
+    "meaningEn": "various",
+    "meaningKo": "다양한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "後ろ",
+    "hiragana": "うしろ",
+    "meaningEn": "behind",
+    "meaningKo": "뒤로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "薄い",
+    "hiragana": "うすい",
+    "meaningEn": "thin",
+    "meaningKo": "얇은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "歌",
+    "hiragana": "うた",
+    "meaningEn": "song",
+    "meaningKo": "노래",
+    "grade": "N5"
+  },
+  {
+    "kanji": "歌う",
+    "hiragana": "うたう",
+    "meaningEn": "sing",
+    "meaningKo": "노래하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "生まれる",
+    "hiragana": "うまれる",
+    "meaningEn": "born",
+    "meaningKo": "태어난",
+    "grade": "N5"
+  },
+  {
+    "kanji": "海",
+    "hiragana": "うみ",
+    "meaningEn": "sea",
+    "meaningKo": "바다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "売る",
+    "hiragana": "うる",
+    "meaningEn": "sell",
+    "meaningKo": "팔다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "煩い",
+    "hiragana": "うるさい",
+    "meaningEn": "You are bothering me",
+    "meaningKo": "번거로움",
+    "grade": "N5"
+  },
+  {
+    "kanji": "上着",
+    "hiragana": "うわぎ",
+    "meaningEn": "jacket",
+    "meaningKo": "겉옷",
+    "grade": "N5"
+  },
+  {
+    "kanji": "絵",
+    "hiragana": "え",
+    "meaningEn": "picture",
+    "meaningKo": "그림",
+    "grade": "N5"
+  },
+  {
+    "kanji": "映画",
+    "hiragana": "えいが",
+    "meaningEn": "movie",
+    "meaningKo": "영화",
+    "grade": "N5"
+  },
+  {
+    "kanji": "映画館",
+    "hiragana": "えいがかん",
+    "meaningEn": "movie theatre",
+    "meaningKo": "영화관",
+    "grade": "N5"
+  },
+  {
+    "kanji": "英語",
+    "hiragana": "えいご",
+    "meaningEn": "English",
+    "meaningKo": "영어",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ええ",
+    "hiragana": "ええ",
+    "meaningEn": "Yeah",
+    "meaningKo": "그래",
+    "grade": "N5"
+  },
+  {
+    "kanji": "駅",
+    "hiragana": "えき",
+    "meaningEn": "station",
+    "meaningKo": "역",
+    "grade": "N5"
+  },
+  {
+    "kanji": "エレベーター",
+    "hiragana": "エレベーター",
+    "meaningEn": "elevator",
+    "meaningKo": "엘리베이터",
+    "grade": "N5"
+  },
+  {
+    "kanji": "鉛筆",
+    "hiragana": "えんぴつ",
+    "meaningEn": "pencil",
+    "meaningKo": "연필",
+    "grade": "N5"
+  },
+  {
+    "kanji": "おいしい",
+    "hiragana": "おいしい",
+    "meaningEn": "delicious",
+    "meaningKo": "맛있는",
+    "grade": "N5"
+  },
+  {
+    "kanji": "多い",
+    "hiragana": "おおい",
+    "meaningEn": "many",
+    "meaningKo": "많은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大きい",
+    "hiragana": "おおきい",
+    "meaningEn": "big",
+    "meaningKo": "큰",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大きな",
+    "hiragana": "おおきな",
+    "meaningEn": "big",
+    "meaningKo": "큰",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大勢",
+    "hiragana": "おおぜい",
+    "meaningEn": "large crowd",
+    "meaningKo": "많은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お母さん",
+    "hiragana": "おかあさん",
+    "meaningEn": "mother",
+    "meaningKo": "엄마",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お菓子",
+    "hiragana": "おかし",
+    "meaningEn": "sweets",
+    "meaningKo": "과자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お金",
+    "hiragana": "おかね",
+    "meaningEn": "money",
+    "meaningKo": "돈",
+    "grade": "N5"
+  },
+  {
+    "kanji": "起きる",
+    "hiragana": "おきる",
+    "meaningEn": "get up",
+    "meaningKo": "일어나다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "置く",
+    "hiragana": "おく",
+    "meaningEn": "put",
+    "meaningKo": "놓다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "奥さん",
+    "hiragana": "おくさん",
+    "meaningEn": "wife",
+    "meaningKo": "부인",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お酒",
+    "hiragana": "おさけ",
+    "meaningEn": "alcohol",
+    "meaningKo": "술",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お皿",
+    "hiragana": "おさら",
+    "meaningEn": "plate",
+    "meaningKo": "접시",
+    "grade": "N5"
+  },
+  {
+    "kanji": "伯父",
+    "hiragana": "おじいさん, おじさん",
+    "meaningEn": "uncle",
+    "meaningKo": "백부",
+    "grade": "N5"
+  },
+  {
+    "kanji": "叔父",
+    "hiragana": "おじいさん, おじさん",
+    "meaningEn": "uncle",
+    "meaningKo": "삼촌",
+    "grade": "N5"
+  },
+  {
+    "kanji": "教える",
+    "hiragana": "おしえる",
+    "meaningEn": "teach",
+    "meaningKo": "가르치다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "押す",
+    "hiragana": "おす",
+    "meaningEn": "push",
+    "meaningKo": "누름",
+    "grade": "N5"
+  },
+  {
+    "kanji": "遅い",
+    "hiragana": "おそい",
+    "meaningEn": "slow",
+    "meaningKo": "느린",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お茶",
+    "hiragana": "おちゃ",
+    "meaningEn": "tea",
+    "meaningKo": "차",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お手洗い",
+    "hiragana": "おてあらい",
+    "meaningEn": "restroom",
+    "meaningKo": "화장실",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お父さん",
+    "hiragana": "おとうさん",
+    "meaningEn": "father",
+    "meaningKo": "아빠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ",
+    "meaningEn": "man",
+    "meaningKo": "남자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "男の子",
+    "hiragana": "おとこのこ",
+    "meaningEn": "boy",
+    "meaningKo": "소년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大人",
+    "hiragana": "おとな",
+    "meaningEn": "adult",
+    "meaningKo": "성인",
+    "grade": "N5"
+  },
+  {
+    "kanji": "おなか",
+    "hiragana": "おなか",
+    "meaningEn": "stomach",
+    "meaningKo": "배",
+    "grade": "N5"
+  },
+  {
+    "kanji": "同じ",
+    "hiragana": "おなじ",
+    "meaningEn": "same",
+    "meaningKo": "동일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お兄さん",
+    "hiragana": "おにいさん",
+    "meaningEn": "brother",
+    "meaningKo": "오빠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お姉さん",
+    "hiragana": "おねえさん",
+    "meaningEn": "older sister",
+    "meaningKo": "언니",
+    "grade": "N5"
+  },
+  {
+    "kanji": "おばあさん",
+    "hiragana": "おばあさん",
+    "meaningEn": "grandmother",
+    "meaningKo": "할머니",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お風呂",
+    "hiragana": "おふろ",
+    "meaningEn": "bath",
+    "meaningKo": "목욕",
+    "grade": "N5"
+  },
+  {
+    "kanji": "お弁当",
+    "hiragana": "おべんとう",
+    "meaningEn": "Lunch box",
+    "meaningKo": "도시락",
+    "grade": "N5"
+  },
+  {
+    "kanji": "覚える",
+    "hiragana": "おぼえる",
+    "meaningEn": "learn by heart",
+    "meaningKo": "기억하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "おまわりさん",
+    "hiragana": "おまわりさん",
+    "meaningEn": "Police officer",
+    "meaningKo": "어머니",
+    "grade": "N5"
+  },
+  {
+    "kanji": "重い",
+    "hiragana": "おもい",
+    "meaningEn": "heavy",
+    "meaningKo": "무거운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "おもしろい",
+    "hiragana": "おもしろい",
+    "meaningEn": "funny",
+    "meaningKo": "흥미로운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "泳ぐ",
+    "hiragana": "およぐ",
+    "meaningEn": "swim",
+    "meaningKo": "수영",
+    "grade": "N5"
+  },
+  {
+    "kanji": "降りる",
+    "hiragana": "おりる",
+    "meaningEn": "get off",
+    "meaningKo": "내리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "終る",
+    "hiragana": "おわる",
+    "meaningEn": "end",
+    "meaningKo": "끝내다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "音楽",
+    "hiragana": "おんがく",
+    "meaningEn": "music",
+    "meaningKo": "음악",
+    "grade": "N5"
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな",
+    "meaningEn": "woman",
+    "meaningKo": "여자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "女の子",
+    "hiragana": "おんなのこ",
+    "meaningEn": "girl",
+    "meaningKo": "소녀",
+    "grade": "N5"
+  },
+  {
+    "kanji": "外国",
+    "hiragana": "がいこく",
+    "meaningEn": "foreign country",
+    "meaningKo": "외국",
+    "grade": "N5"
+  },
+  {
+    "kanji": "外国人",
+    "hiragana": "がいこくじん",
+    "meaningEn": "foreigner",
+    "meaningKo": "외국인",
+    "grade": "N5"
+  },
+  {
+    "kanji": "会社",
+    "hiragana": "かいしゃ",
+    "meaningEn": "company",
+    "meaningKo": "회사",
+    "grade": "N5"
+  },
+  {
+    "kanji": "階段",
+    "hiragana": "かいだん",
+    "meaningEn": "stairs",
+    "meaningKo": "계단",
+    "grade": "N5"
+  },
+  {
+    "kanji": "買い物",
+    "hiragana": "かいもの",
+    "meaningEn": "shopping",
+    "meaningKo": "쇼핑",
+    "grade": "N5"
+  },
+  {
+    "kanji": "買う",
+    "hiragana": "かう",
+    "meaningEn": "buy",
+    "meaningKo": "사다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "返す",
+    "hiragana": "かえす",
+    "meaningEn": "return",
+    "meaningKo": "반환",
+    "grade": "N5"
+  },
+  {
+    "kanji": "帰る",
+    "hiragana": "かえる",
+    "meaningEn": "go home",
+    "meaningKo": "돌아가다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "かかる",
+    "hiragana": "かかる",
+    "meaningEn": "It takes",
+    "meaningKo": "걸리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "かぎ",
+    "hiragana": "かぎ",
+    "meaningEn": "key",
+    "meaningKo": "카기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "書く",
+    "hiragana": "かく",
+    "meaningEn": "write",
+    "meaningKo": "쓰기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "学生",
+    "hiragana": "がくせい",
+    "meaningEn": "student",
+    "meaningKo": "학생",
+    "grade": "N5"
+  },
+  {
+    "kanji": "かける",
+    "hiragana": "かける",
+    "meaningEn": "put on",
+    "meaningKo": "걸다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "傘",
+    "hiragana": "かさ",
+    "meaningEn": "umbrella",
+    "meaningKo": "우산",
+    "grade": "N5"
+  },
+  {
+    "kanji": "貸す",
+    "hiragana": "かす",
+    "meaningEn": "lend",
+    "meaningKo": "빌려주는",
+    "grade": "N5"
+  },
+  {
+    "kanji": "風",
+    "hiragana": "かぜ",
+    "meaningEn": "wind",
+    "meaningKo": "바람",
+    "grade": "N5"
+  },
+  {
+    "kanji": "風邪",
+    "hiragana": "かぜ",
+    "meaningEn": "cold",
+    "meaningKo": "감기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "家族",
+    "hiragana": "かぞく",
+    "meaningEn": "family",
+    "meaningKo": "가족",
+    "grade": "N5"
+  },
+  {
+    "kanji": "学校",
+    "hiragana": "がっこう",
+    "meaningEn": "school",
+    "meaningKo": "학교",
+    "grade": "N5"
+  },
+  {
+    "kanji": "カップ",
+    "hiragana": "カップ",
+    "meaningEn": "cup",
+    "meaningKo": "컵",
+    "grade": "N5"
+  },
+  {
+    "kanji": "家庭",
+    "hiragana": "かてい",
+    "meaningEn": "home",
+    "meaningKo": "가정",
+    "grade": "N5"
+  },
+  {
+    "kanji": "かばん",
+    "hiragana": "かばん",
+    "meaningEn": "bag",
+    "meaningKo": "가방",
+    "grade": "N5"
+  },
+  {
+    "kanji": "花瓶",
+    "hiragana": "かびん",
+    "meaningEn": "vase",
+    "meaningKo": "꽃병",
+    "grade": "N5"
+  },
+  {
+    "kanji": "紙",
+    "hiragana": "かみ",
+    "meaningEn": "paper",
+    "meaningKo": "종이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "カメラ",
+    "hiragana": "カメラ",
+    "meaningEn": "camera",
+    "meaningKo": "카메라",
+    "grade": "N5"
+  },
+  {
+    "kanji": "火曜日",
+    "hiragana": "かようび",
+    "meaningEn": "Tuesday",
+    "meaningKo": "화요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "借りる",
+    "hiragana": "かりる",
+    "meaningEn": "borrow",
+    "meaningKo": "빌리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "軽い",
+    "hiragana": "かるい",
+    "meaningEn": "light",
+    "meaningKo": "가벼운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "カレー",
+    "hiragana": "カレー",
+    "meaningEn": "curry",
+    "meaningKo": "카레",
+    "grade": "N5"
+  },
+  {
+    "kanji": "カレンダー",
+    "hiragana": "カレンダー",
+    "meaningEn": "calendar",
+    "meaningKo": "달력",
+    "grade": "N5"
+  },
+  {
+    "kanji": "かわいい",
+    "hiragana": "かわいい",
+    "meaningEn": "cute",
+    "meaningKo": "귀여운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "漢字",
+    "hiragana": "かんじ",
+    "meaningEn": "Kanji",
+    "meaningKo": "한자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "木",
+    "hiragana": "き",
+    "meaningEn": "tree",
+    "meaningKo": "나무",
+    "grade": "N5"
+  },
+  {
+    "kanji": "黄色い",
+    "hiragana": "きいろい",
+    "meaningEn": "yellow",
+    "meaningKo": "노란색",
+    "grade": "N5"
+  },
+  {
+    "kanji": "消える",
+    "hiragana": "きえる",
+    "meaningEn": "disappear",
+    "meaningKo": "사라지다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "聞く",
+    "hiragana": "きく",
+    "meaningEn": "listen",
+    "meaningKo": "듣다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "北",
+    "hiragana": "きた",
+    "meaningEn": "north",
+    "meaningKo": "북",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ギター",
+    "hiragana": "ギター",
+    "meaningEn": "guitar",
+    "meaningKo": "기타",
+    "grade": "N5"
+  },
+  {
+    "kanji": "汚い",
+    "hiragana": "きたない",
+    "meaningEn": "dirty",
+    "meaningKo": "더러운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "喫茶店",
+    "hiragana": "きっさてん",
+    "meaningEn": "coffee shop",
+    "meaningKo": "다방",
+    "grade": "N5"
+  },
+  {
+    "kanji": "切手",
+    "hiragana": "きって",
+    "meaningEn": "stamp",
+    "meaningKo": "우표",
+    "grade": "N5"
+  },
+  {
+    "kanji": "切符",
+    "hiragana": "きっぷ",
+    "meaningEn": "ticket",
+    "meaningKo": "티켓",
+    "grade": "N5"
+  },
+  {
+    "kanji": "昨日",
+    "hiragana": "きのう",
+    "meaningEn": "yesterday",
+    "meaningKo": "어제",
+    "grade": "N5"
+  },
+  {
+    "kanji": "牛肉",
+    "hiragana": "ぎゅうにく",
+    "meaningEn": "beef",
+    "meaningKo": "쇠고기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "牛乳",
+    "hiragana": "ぎゅうにゅう",
+    "meaningEn": "milk",
+    "meaningKo": "우유",
+    "grade": "N5"
+  },
+  {
+    "kanji": "教室",
+    "hiragana": "きょうしつ",
+    "meaningEn": "classroom",
+    "meaningKo": "교실",
+    "grade": "N5"
+  },
+  {
+    "kanji": "兄弟",
+    "hiragana": "きょうだい",
+    "meaningEn": "brothers",
+    "meaningKo": "형제",
+    "grade": "N5"
+  },
+  {
+    "kanji": "去年",
+    "hiragana": "きょねん",
+    "meaningEn": "last year",
+    "meaningKo": "작년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "嫌い",
+    "hiragana": "きらい",
+    "meaningEn": "dislike",
+    "meaningKo": "싫어",
+    "grade": "N5"
+  },
+  {
+    "kanji": "切る",
+    "hiragana": "きる",
+    "meaningEn": "cut",
+    "meaningKo": "자르다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "着る",
+    "hiragana": "きる",
+    "meaningEn": "wear",
+    "meaningKo": "입다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "きれい",
+    "hiragana": "きれい",
+    "meaningEn": "beautiful",
+    "meaningKo": "깨끗한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "キログラム",
+    "hiragana": "キロ, キログラム",
+    "meaningEn": "kilogram",
+    "meaningKo": "킬로그램",
+    "grade": "N5"
+  },
+  {
+    "kanji": "キロメートル",
+    "hiragana": "キロ, キロメートル",
+    "meaningEn": "kilometer",
+    "meaningKo": "킬로미터",
+    "grade": "N5"
+  },
+  {
+    "kanji": "銀行",
+    "hiragana": "ぎんこう",
+    "meaningEn": "bank",
+    "meaningKo": "은행",
+    "grade": "N5"
+  },
+  {
+    "kanji": "金曜日",
+    "hiragana": "きんようび",
+    "meaningEn": "Friday",
+    "meaningKo": "금요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "薬",
+    "hiragana": "くすり",
+    "meaningEn": "medicine",
+    "meaningKo": "약",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ください",
+    "hiragana": "ください",
+    "meaningEn": "please",
+    "meaningKo": "제발",
+    "grade": "N5"
+  },
+  {
+    "kanji": "果物",
+    "hiragana": "くだもの",
+    "meaningEn": "fruit",
+    "meaningKo": "과일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "口",
+    "hiragana": "くち",
+    "meaningEn": "mouth",
+    "meaningKo": "입",
+    "grade": "N5"
+  },
+  {
+    "kanji": "靴",
+    "hiragana": "くつ",
+    "meaningEn": "shoes",
+    "meaningKo": "신발",
+    "grade": "N5"
+  },
+  {
+    "kanji": "靴下",
+    "hiragana": "くつした",
+    "meaningEn": "socks",
+    "meaningKo": "양말",
+    "grade": "N5"
+  },
+  {
+    "kanji": "国",
+    "hiragana": "くに",
+    "meaningEn": "country",
+    "meaningKo": "국가",
+    "grade": "N5"
+  },
+  {
+    "kanji": "曇り",
+    "hiragana": "くもり",
+    "meaningEn": "cloudy",
+    "meaningKo": "흐림",
+    "grade": "N5"
+  },
+  {
+    "kanji": "曇る",
+    "hiragana": "くもる",
+    "meaningEn": "cloudy",
+    "meaningKo": "흐리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "暗い",
+    "hiragana": "くらい",
+    "meaningEn": "dark",
+    "meaningKo": "어두운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "クラス",
+    "hiragana": "クラス",
+    "meaningEn": "class",
+    "meaningKo": "수업",
+    "grade": "N5"
+  },
+  {
+    "kanji": "グラム",
+    "hiragana": "グラム",
+    "meaningEn": "grams",
+    "meaningKo": "그램",
+    "grade": "N5"
+  },
+  {
+    "kanji": "車",
+    "hiragana": "くるま",
+    "meaningEn": "car",
+    "meaningKo": "자동차",
+    "grade": "N5"
+  },
+  {
+    "kanji": "黒",
+    "hiragana": "くろ",
+    "meaningEn": "black",
+    "meaningKo": "블랙",
+    "grade": "N5"
+  },
+  {
+    "kanji": "黒い",
+    "hiragana": "くろい",
+    "meaningEn": "black",
+    "meaningKo": "검은색",
+    "grade": "N5"
+  },
+  {
+    "kanji": "警官",
+    "hiragana": "けいかん",
+    "meaningEn": "police officer",
+    "meaningKo": "경찰",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今朝",
+    "hiragana": "けさ",
+    "meaningEn": "this morning",
+    "meaningKo": "오늘 아침",
+    "grade": "N5"
+  },
+  {
+    "kanji": "消す",
+    "hiragana": "けす",
+    "meaningEn": "erase",
+    "meaningKo": "지우다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "結構",
+    "hiragana": "けっこう",
+    "meaningEn": "fine",
+    "meaningKo": "상당히",
+    "grade": "N5"
+  },
+  {
+    "kanji": "結婚",
+    "hiragana": "けっこん",
+    "meaningEn": "marriage",
+    "meaningKo": "결혼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "月曜日",
+    "hiragana": "げつようび",
+    "meaningEn": "Monday",
+    "meaningKo": "월요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "玄関",
+    "hiragana": "げんかん",
+    "meaningEn": "entrance",
+    "meaningKo": "현관",
+    "grade": "N5"
+  },
+  {
+    "kanji": "元気",
+    "hiragana": "げんき",
+    "meaningEn": "fine",
+    "meaningKo": "건강하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "五",
+    "hiragana": "ご",
+    "meaningEn": "Five",
+    "meaningKo": "5",
+    "grade": "N5"
+  },
+  {
+    "kanji": "公園",
+    "hiragana": "こうえん",
+    "meaningEn": "park",
+    "meaningKo": "공원",
+    "grade": "N5"
+  },
+  {
+    "kanji": "交差点",
+    "hiragana": "こうさてん",
+    "meaningEn": "intersection",
+    "meaningKo": "교차로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "紅茶",
+    "hiragana": "こうちゃ",
+    "meaningEn": "black tea",
+    "meaningKo": "홍차",
+    "grade": "N5"
+  },
+  {
+    "kanji": "交番",
+    "hiragana": "こうばん",
+    "meaningEn": "police box",
+    "meaningKo": "교번",
+    "grade": "N5"
+  },
+  {
+    "kanji": "声",
+    "hiragana": "こえ",
+    "meaningEn": "voice",
+    "meaningKo": "목소리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "コート",
+    "hiragana": "コート",
+    "meaningEn": "coat",
+    "meaningKo": "코트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "コーヒー",
+    "hiragana": "コーヒー",
+    "meaningEn": "coffee",
+    "meaningKo": "커피",
+    "grade": "N5"
+  },
+  {
+    "kanji": "午後",
+    "hiragana": "ごご",
+    "meaningEn": "afternoon",
+    "meaningKo": "오후",
+    "grade": "N5"
+  },
+  {
+    "kanji": "九日",
+    "hiragana": "ここのか",
+    "meaningEn": "nine days",
+    "meaningKo": "9일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "九つ",
+    "hiragana": "ここのつ",
+    "meaningEn": "nine",
+    "meaningKo": "9개",
+    "grade": "N5"
+  },
+  {
+    "kanji": "午前",
+    "hiragana": "ごぜん",
+    "meaningEn": "morning",
+    "meaningKo": "오전",
+    "grade": "N5"
+  },
+  {
+    "kanji": "答える",
+    "hiragana": "こたえる",
+    "meaningEn": "answer",
+    "meaningKo": "대답하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "こちら",
+    "hiragana": "こちら",
+    "meaningEn": "here",
+    "meaningKo": "여기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "こっち",
+    "hiragana": "こっち",
+    "meaningEn": "This way",
+    "meaningKo": "이쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "コップ",
+    "hiragana": "コップ",
+    "meaningEn": "cup",
+    "meaningKo": "컵",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今年",
+    "hiragana": "ことし",
+    "meaningEn": "this year",
+    "meaningKo": "올해",
+    "grade": "N5"
+  },
+  {
+    "kanji": "言葉",
+    "hiragana": "ことば",
+    "meaningEn": "words",
+    "meaningKo": "단어",
+    "grade": "N5"
+  },
+  {
+    "kanji": "子供",
+    "hiragana": "こども",
+    "meaningEn": "child",
+    "meaningKo": "어린이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "御飯",
+    "hiragana": "ごはん",
+    "meaningEn": "rice",
+    "meaningKo": "밥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "コピーする",
+    "hiragana": "コピーする",
+    "meaningEn": "copy",
+    "meaningKo": "복사",
+    "grade": "N5"
+  },
+  {
+    "kanji": "困る",
+    "hiragana": "こまる",
+    "meaningEn": "in trouble",
+    "meaningKo": "어려움",
+    "grade": "N5"
+  },
+  {
+    "kanji": "これ",
+    "hiragana": "これ",
+    "meaningEn": "this",
+    "meaningKo": "이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今月",
+    "hiragana": "こんげつ",
+    "meaningEn": "this month",
+    "meaningKo": "이달",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今週",
+    "hiragana": "こんしゅう",
+    "meaningEn": "this week",
+    "meaningKo": "이번 주",
+    "grade": "N5"
+  },
+  {
+    "kanji": "こんな",
+    "hiragana": "こんな",
+    "meaningEn": "Like this",
+    "meaningKo": "이런",
+    "grade": "N5"
+  },
+  {
+    "kanji": "今晩",
+    "hiragana": "こんばん",
+    "meaningEn": "tonight",
+    "meaningKo": "오늘밤",
+    "grade": "N5"
+  },
+  {
+    "kanji": "さあ",
+    "hiragana": "さあ",
+    "meaningEn": "here we go",
+    "meaningKo": "어서",
+    "grade": "N5"
+  },
+  {
+    "kanji": "財布",
+    "hiragana": "さいふ",
+    "meaningEn": "wallet",
+    "meaningKo": "지갑",
+    "grade": "N5"
+  },
+  {
+    "kanji": "先",
+    "hiragana": "さき",
+    "meaningEn": "destination",
+    "meaningKo": "앞",
+    "grade": "N5"
+  },
+  {
+    "kanji": "咲く",
+    "hiragana": "さく",
+    "meaningEn": "bloom",
+    "meaningKo": "개화",
+    "grade": "N5"
+  },
+  {
+    "kanji": "作文",
+    "hiragana": "さくぶん",
+    "meaningEn": "composition",
+    "meaningKo": "작문",
+    "grade": "N5"
+  },
+  {
+    "kanji": "差す",
+    "hiragana": "さす",
+    "meaningEn": "insert",
+    "meaningKo": "삽입",
+    "grade": "N5"
+  },
+  {
+    "kanji": "雑誌",
+    "hiragana": "ざっし",
+    "meaningEn": "magazine",
+    "meaningKo": "잡지",
+    "grade": "N5"
+  },
+  {
+    "kanji": "砂糖",
+    "hiragana": "さとう",
+    "meaningEn": "sugar",
+    "meaningKo": "설탕",
+    "grade": "N5"
+  },
+  {
+    "kanji": "寒い",
+    "hiragana": "さむい",
+    "meaningEn": "cold",
+    "meaningKo": "추운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "さ来年",
+    "hiragana": "さらいねん",
+    "meaningEn": "Next year",
+    "meaningKo": "내년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "しかし",
+    "hiragana": "しかし",
+    "meaningEn": "but",
+    "meaningKo": "그러나",
+    "grade": "N5"
+  },
+  {
+    "kanji": "時間",
+    "hiragana": "じかん",
+    "meaningEn": "time",
+    "meaningKo": "시간",
+    "grade": "N5"
+  },
+  {
+    "kanji": "仕事",
+    "hiragana": "しごと",
+    "meaningEn": "work",
+    "meaningKo": "작업",
+    "grade": "N5"
+  },
+  {
+    "kanji": "辞書",
+    "hiragana": "じしょ",
+    "meaningEn": "dictionary",
+    "meaningKo": "사전",
+    "grade": "N5"
+  },
+  {
+    "kanji": "静か",
+    "hiragana": "しずか",
+    "meaningEn": "quiet",
+    "meaningKo": "조용한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "質問",
+    "hiragana": "しつもん",
+    "meaningEn": "question",
+    "meaningKo": "질문",
+    "grade": "N5"
+  },
+  {
+    "kanji": "自転車",
+    "hiragana": "じてんしゃ",
+    "meaningEn": "bicycle",
+    "meaningKo": "자전거",
+    "grade": "N5"
+  },
+  {
+    "kanji": "自動車",
+    "hiragana": "じどうしゃ",
+    "meaningEn": "car",
+    "meaningKo": "자동차",
+    "grade": "N5"
+  },
+  {
+    "kanji": "死ぬ",
+    "hiragana": "しぬ",
+    "meaningEn": "die",
+    "meaningKo": "죽다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "字引",
+    "hiragana": "じびき",
+    "meaningEn": "dictionary",
+    "meaningKo": "글자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "自分",
+    "hiragana": "じぶん",
+    "meaningEn": "myself",
+    "meaningKo": "자신",
+    "grade": "N5"
+  },
+  {
+    "kanji": "閉まる",
+    "hiragana": "しまる",
+    "meaningEn": "close",
+    "meaningKo": "닫다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "閉める",
+    "hiragana": "しめる",
+    "meaningEn": "close",
+    "meaningKo": "닫다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "締める",
+    "hiragana": "しめる",
+    "meaningEn": "tighten",
+    "meaningKo": "죄다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "じゃ",
+    "hiragana": "じゃ, じゃあ",
+    "meaningEn": "well",
+    "meaningKo": "그럼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "写真",
+    "hiragana": "しゃしん",
+    "meaningEn": "photograph",
+    "meaningKo": "사진",
+    "grade": "N5"
+  },
+  {
+    "kanji": "シャツ",
+    "hiragana": "シャツ",
+    "meaningEn": "shirt",
+    "meaningKo": "셔츠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "シャワー",
+    "hiragana": "シャワー",
+    "meaningEn": "shower",
+    "meaningKo": "샤워",
+    "grade": "N5"
+  },
+  {
+    "kanji": "授業",
+    "hiragana": "じゅぎょう",
+    "meaningEn": "class",
+    "meaningKo": "수업",
+    "grade": "N5"
+  },
+  {
+    "kanji": "宿題",
+    "hiragana": "しゅくだい",
+    "meaningEn": "homework",
+    "meaningKo": "숙제",
+    "grade": "N5"
+  },
+  {
+    "kanji": "しょうゆ",
+    "hiragana": "しょうゆ",
+    "meaningEn": "soy sauce",
+    "meaningKo": "간장",
+    "grade": "N5"
+  },
+  {
+    "kanji": "食堂",
+    "hiragana": "しょくどう",
+    "meaningEn": "dining room",
+    "meaningKo": "식당",
+    "grade": "N5"
+  },
+  {
+    "kanji": "知る",
+    "hiragana": "しる",
+    "meaningEn": "know",
+    "meaningKo": "알다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "白",
+    "hiragana": "しろ",
+    "meaningEn": "white",
+    "meaningKo": "화이트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "白い",
+    "hiragana": "しろい",
+    "meaningEn": "white",
+    "meaningKo": "흰",
+    "grade": "N5"
+  },
+  {
+    "kanji": "新聞",
+    "hiragana": "しんぶん",
+    "meaningEn": "newspaper",
+    "meaningKo": "신문",
+    "grade": "N5"
+  },
+  {
+    "kanji": "水曜日",
+    "hiragana": "すいようび",
+    "meaningEn": "Wednesday",
+    "meaningKo": "수요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "吸う",
+    "hiragana": "すう",
+    "meaningEn": "inhale",
+    "meaningKo": "빨다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "スカート",
+    "hiragana": "スカート",
+    "meaningEn": "skirt",
+    "meaningKo": "스커트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "好き",
+    "hiragana": "すき",
+    "meaningEn": "like",
+    "meaningKo": "좋아",
+    "grade": "N5"
+  },
+  {
+    "kanji": "少ない",
+    "hiragana": "すくない",
+    "meaningEn": "few",
+    "meaningKo": "적은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "すぐに",
+    "hiragana": "すぐに",
+    "meaningEn": "immediately",
+    "meaningKo": "즉시",
+    "grade": "N5"
+  },
+  {
+    "kanji": "少し",
+    "hiragana": "すこし",
+    "meaningEn": "a bit",
+    "meaningKo": "조금",
+    "grade": "N5"
+  },
+  {
+    "kanji": "涼しい",
+    "hiragana": "すずしい",
+    "meaningEn": "cool",
+    "meaningKo": "시원한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ストーブ",
+    "hiragana": "ストーブ",
+    "meaningEn": "stove",
+    "meaningKo": "스토브",
+    "grade": "N5"
+  },
+  {
+    "kanji": "スプーン",
+    "hiragana": "スプーン",
+    "meaningEn": "spoon",
+    "meaningKo": "숟가락",
+    "grade": "N5"
+  },
+  {
+    "kanji": "スポーツ",
+    "hiragana": "スポーツ",
+    "meaningEn": "sports",
+    "meaningKo": "스포츠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ズボン",
+    "hiragana": "ズボン",
+    "meaningEn": "pants",
+    "meaningKo": "바지",
+    "grade": "N5"
+  },
+  {
+    "kanji": "住む",
+    "hiragana": "すむ",
+    "meaningEn": "live",
+    "meaningKo": "살다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "スリッパ",
+    "hiragana": "スリッパ",
+    "meaningEn": "slippers",
+    "meaningKo": "슬리퍼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "する",
+    "hiragana": "する",
+    "meaningEn": "do",
+    "meaningKo": "하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "座る",
+    "hiragana": "すわる",
+    "meaningEn": "sit",
+    "meaningKo": "앉다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "生徒",
+    "hiragana": "せいと",
+    "meaningEn": "student",
+    "meaningKo": "학생",
+    "grade": "N5"
+  },
+  {
+    "kanji": "セーター",
+    "hiragana": "セーター",
+    "meaningEn": "sweater",
+    "meaningKo": "스웨터",
+    "grade": "N5"
+  },
+  {
+    "kanji": "せっけん",
+    "hiragana": "せっけん",
+    "meaningEn": "soap",
+    "meaningKo": "비누",
+    "grade": "N5"
+  },
+  {
+    "kanji": "背広",
+    "hiragana": "せびろ",
+    "meaningEn": "suit",
+    "meaningKo": "배광",
+    "grade": "N5"
+  },
+  {
+    "kanji": "狭い",
+    "hiragana": "せまい",
+    "meaningEn": "narrow",
+    "meaningKo": "좁은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ゼロ",
+    "hiragana": "ゼロ",
+    "meaningEn": "zero",
+    "meaningKo": "제로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "千",
+    "hiragana": "せん",
+    "meaningEn": "thousand",
+    "meaningKo": "천",
+    "grade": "N5"
+  },
+  {
+    "kanji": "先月",
+    "hiragana": "せんげつ",
+    "meaningEn": "last month",
+    "meaningKo": "지난달",
+    "grade": "N5"
+  },
+  {
+    "kanji": "先週",
+    "hiragana": "せんしゅう",
+    "meaningEn": "last week",
+    "meaningKo": "지난주",
+    "grade": "N5"
+  },
+  {
+    "kanji": "先生",
+    "hiragana": "せんせい",
+    "meaningEn": "teacher",
+    "meaningKo": "선생님",
+    "grade": "N5"
+  },
+  {
+    "kanji": "洗濯",
+    "hiragana": "せんたく",
+    "meaningEn": "laundry",
+    "meaningKo": "세탁",
+    "grade": "N5"
+  },
+  {
+    "kanji": "全部",
+    "hiragana": "ぜんぶ",
+    "meaningEn": "All",
+    "meaningKo": "모두",
+    "grade": "N5"
+  },
+  {
+    "kanji": "そちら",
+    "hiragana": "そちら",
+    "meaningEn": "there",
+    "meaningKo": "그쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "そっち",
+    "hiragana": "そっち",
+    "meaningEn": "That way",
+    "meaningKo": "그쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "そば",
+    "hiragana": "そば",
+    "meaningEn": "buckwheat",
+    "meaningKo": "메밀",
+    "grade": "N5"
+  },
+  {
+    "kanji": "それから",
+    "hiragana": "それから",
+    "meaningEn": "after that",
+    "meaningKo": "그럼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "それでは",
+    "hiragana": "それでは",
+    "meaningEn": "Well then",
+    "meaningKo": "그럼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "meaningEn": "university",
+    "meaningKo": "대학",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大使館",
+    "hiragana": "たいしかん",
+    "meaningEn": "embassy",
+    "meaningKo": "대사관",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大丈夫",
+    "hiragana": "だいじょうぶ",
+    "meaningEn": "Are you okay",
+    "meaningKo": "괜찮아",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大好き",
+    "hiragana": "だいすき",
+    "meaningEn": "really like",
+    "meaningKo": "사랑",
+    "grade": "N5"
+  },
+  {
+    "kanji": "大切",
+    "hiragana": "たいせつ",
+    "meaningEn": "important",
+    "meaningKo": "소중한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "台所",
+    "hiragana": "だいどころ",
+    "meaningEn": "kitchen",
+    "meaningKo": "부엌",
+    "grade": "N5"
+  },
+  {
+    "kanji": "たいへん",
+    "hiragana": "たいへん, たいへん",
+    "meaningEn": "very much",
+    "meaningKo": "매우",
+    "grade": "N5"
+  },
+  {
+    "kanji": "高い",
+    "hiragana": "たかい",
+    "meaningEn": "expensive",
+    "meaningKo": "높은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "たくさん",
+    "hiragana": "たくさん",
+    "meaningEn": "a lot",
+    "meaningKo": "많은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "タクシー",
+    "hiragana": "タクシー",
+    "meaningEn": "taxi",
+    "meaningKo": "택시",
+    "grade": "N5"
+  },
+  {
+    "kanji": "出す",
+    "hiragana": "だす",
+    "meaningEn": "put out",
+    "meaningKo": "꺼내다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "立つ",
+    "hiragana": "たつ",
+    "meaningEn": "stand",
+    "meaningKo": "서다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "たて",
+    "hiragana": "たて",
+    "meaningEn": "vertical",
+    "meaningKo": "갓",
+    "grade": "N5"
+  },
+  {
+    "kanji": "建物",
+    "hiragana": "たてもの",
+    "meaningEn": "building",
+    "meaningKo": "건물",
+    "grade": "N5"
+  },
+  {
+    "kanji": "楽しい",
+    "hiragana": "たのしい",
+    "meaningEn": "fun",
+    "meaningKo": "즐거운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "頼む",
+    "hiragana": "たのむ",
+    "meaningEn": "ask",
+    "meaningKo": "부탁하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "たばこ",
+    "hiragana": "たばこ",
+    "meaningEn": "Tobacco",
+    "meaningKo": "담배",
+    "grade": "N5"
+  },
+  {
+    "kanji": "たぶん",
+    "hiragana": "たぶん",
+    "meaningEn": "perhaps",
+    "meaningKo": "어쩌면",
+    "grade": "N5"
+  },
+  {
+    "kanji": "食べ物",
+    "hiragana": "たべもの",
+    "meaningEn": "food",
+    "meaningKo": "음식",
+    "grade": "N5"
+  },
+  {
+    "kanji": "食べる",
+    "hiragana": "たべる",
+    "meaningEn": "eat",
+    "meaningKo": "먹다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "卵",
+    "hiragana": "たまご",
+    "meaningEn": "egg",
+    "meaningKo": "계란",
+    "grade": "N5"
+  },
+  {
+    "kanji": "誕生日",
+    "hiragana": "たんじょうび",
+    "meaningEn": "birthday",
+    "meaningKo": "생일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "だんだん",
+    "hiragana": "だんだん",
+    "meaningEn": "gradually",
+    "meaningKo": "점점",
+    "grade": "N5"
+  },
+  {
+    "kanji": "小さい",
+    "hiragana": "ちいさい",
+    "meaningEn": "small",
+    "meaningKo": "작은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "小さな",
+    "hiragana": "ちいさな",
+    "meaningEn": "small",
+    "meaningKo": "작은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "近い",
+    "hiragana": "ちかい",
+    "meaningEn": "close",
+    "meaningKo": "가까운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "違う",
+    "hiragana": "ちがう",
+    "meaningEn": "different",
+    "meaningKo": "다르다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "近く",
+    "hiragana": "ちかく",
+    "meaningEn": "near",
+    "meaningKo": "가까이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "地下鉄",
+    "hiragana": "ちかてつ",
+    "meaningEn": "subway",
+    "meaningKo": "지하철",
+    "grade": "N5"
+  },
+  {
+    "kanji": "地図",
+    "hiragana": "ちず",
+    "meaningEn": "map",
+    "meaningKo": "지도",
+    "grade": "N5"
+  },
+  {
+    "kanji": "茶色",
+    "hiragana": "ちゃいろ",
+    "meaningEn": "brown",
+    "meaningKo": "갈색",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ちゃわん",
+    "hiragana": "ちゃわん",
+    "meaningEn": "Chawan",
+    "meaningKo": "짱",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ちょうど",
+    "hiragana": "ちょうど",
+    "meaningEn": "just",
+    "meaningKo": "그냥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ちょっと",
+    "hiragana": "ちょっと",
+    "meaningEn": "a little bit",
+    "meaningKo": "조금",
+    "grade": "N5"
+  },
+  {
+    "kanji": "使う",
+    "hiragana": "つかう",
+    "meaningEn": "use",
+    "meaningKo": "사용",
+    "grade": "N5"
+  },
+  {
+    "kanji": "疲れる",
+    "hiragana": "つかれる",
+    "meaningEn": "Tired",
+    "meaningKo": "피곤하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "着く",
+    "hiragana": "つく",
+    "meaningEn": "arrive",
+    "meaningKo": "도착하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "机",
+    "hiragana": "つくえ",
+    "meaningEn": "desk",
+    "meaningKo": "책상",
+    "grade": "N5"
+  },
+  {
+    "kanji": "つける",
+    "hiragana": "つける",
+    "meaningEn": "put on",
+    "meaningKo": "붙이다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "勤める",
+    "hiragana": "つとめる",
+    "meaningEn": "serve",
+    "meaningKo": "근무하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "つまらない",
+    "hiragana": "つまらない",
+    "meaningEn": "boring",
+    "meaningKo": "지루한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "meaningEn": "cold",
+    "meaningKo": "차가운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "強い",
+    "hiragana": "つよい",
+    "meaningEn": "strong",
+    "meaningKo": "강한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "手",
+    "hiragana": "て",
+    "meaningEn": "hand",
+    "meaningKo": "손",
+    "grade": "N5"
+  },
+  {
+    "kanji": "テープ",
+    "hiragana": "テープ",
+    "meaningEn": "tape",
+    "meaningKo": "테이프",
+    "grade": "N5"
+  },
+  {
+    "kanji": "テーブル",
+    "hiragana": "テーブル",
+    "meaningEn": "table",
+    "meaningKo": "테이블",
+    "grade": "N5"
+  },
+  {
+    "kanji": "テープレコーダー",
+    "hiragana": "テープレコーダー",
+    "meaningEn": "tape recorder",
+    "meaningKo": "테이프 레코더",
+    "grade": "N5"
+  },
+  {
+    "kanji": "出かける",
+    "hiragana": "でかける",
+    "meaningEn": "go out",
+    "meaningKo": "나가다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "手紙",
+    "hiragana": "てがみ",
+    "meaningEn": "letter",
+    "meaningKo": "편지",
+    "grade": "N5"
+  },
+  {
+    "kanji": "出口",
+    "hiragana": "でぐち",
+    "meaningEn": "Exit",
+    "meaningKo": "출구",
+    "grade": "N5"
+  },
+  {
+    "kanji": "テスト",
+    "hiragana": "テスト",
+    "meaningEn": "test",
+    "meaningKo": "테스트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "デパート",
+    "hiragana": "デパート",
+    "meaningEn": "department store",
+    "meaningKo": "백화점",
+    "grade": "N5"
+  },
+  {
+    "kanji": "出る",
+    "hiragana": "でる",
+    "meaningEn": "come out",
+    "meaningKo": "나가다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "テレビ",
+    "hiragana": "テレビ",
+    "meaningEn": "tv set",
+    "meaningKo": "TV",
+    "grade": "N5"
+  },
+  {
+    "kanji": "天気",
+    "hiragana": "てんき",
+    "meaningEn": "weather",
+    "meaningKo": "날씨",
+    "grade": "N5"
+  },
+  {
+    "kanji": "電気",
+    "hiragana": "でんき",
+    "meaningEn": "electricity",
+    "meaningKo": "전기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "電車",
+    "hiragana": "でんしゃ",
+    "meaningEn": "train",
+    "meaningKo": "기차",
+    "grade": "N5"
+  },
+  {
+    "kanji": "電話",
+    "hiragana": "でんわ",
+    "meaningEn": "phone",
+    "meaningKo": "전화",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ドア",
+    "hiragana": "ドア",
+    "meaningEn": "door",
+    "meaningKo": "문",
+    "grade": "N5"
+  },
+  {
+    "kanji": "トイレ",
+    "hiragana": "トイレ",
+    "meaningEn": "toilet",
+    "meaningKo": "화장실",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どうして",
+    "hiragana": "どうして",
+    "meaningEn": "Why",
+    "meaningKo": "왜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どうぞ",
+    "hiragana": "どうぞ",
+    "meaningEn": "please",
+    "meaningKo": "제발",
+    "grade": "N5"
+  },
+  {
+    "kanji": "動物",
+    "hiragana": "どうぶつ",
+    "meaningEn": "animal",
+    "meaningKo": "동물",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どうも",
+    "hiragana": "どうも",
+    "meaningEn": "Thank you",
+    "meaningKo": "아무래도",
+    "grade": "N5"
+  },
+  {
+    "kanji": "遠い",
+    "hiragana": "とおい",
+    "meaningEn": "far",
+    "meaningKo": "멀리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "十日",
+    "hiragana": "とおか",
+    "meaningEn": "ten days",
+    "meaningKo": "십일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "時々",
+    "hiragana": "ときどき",
+    "meaningEn": "sometimes",
+    "meaningKo": "때때로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "時計",
+    "hiragana": "とけい",
+    "meaningEn": "clock",
+    "meaningKo": "시계",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どこ",
+    "hiragana": "どこ",
+    "meaningEn": "where",
+    "meaningKo": "어디",
+    "grade": "N5"
+  },
+  {
+    "kanji": "所",
+    "hiragana": "ところ",
+    "meaningEn": "place",
+    "meaningKo": "장소",
+    "grade": "N5"
+  },
+  {
+    "kanji": "年",
+    "hiragana": "とし",
+    "meaningEn": "year",
+    "meaningKo": "년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "図書館",
+    "hiragana": "としょかん",
+    "meaningEn": "library",
+    "meaningKo": "도서관",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どちら",
+    "hiragana": "どちら",
+    "meaningEn": "Which",
+    "meaningKo": "어느 쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どっち",
+    "hiragana": "どっち",
+    "meaningEn": "Which",
+    "meaningKo": "어느 쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "とても",
+    "hiragana": "とても",
+    "meaningEn": "very",
+    "meaningKo": "매우",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どなた",
+    "hiragana": "どなた",
+    "meaningEn": "who is it",
+    "meaningKo": "누구",
+    "grade": "N5"
+  },
+  {
+    "kanji": "隣",
+    "hiragana": "となり",
+    "meaningEn": "next",
+    "meaningKo": "이웃",
+    "grade": "N5"
+  },
+  {
+    "kanji": "どの",
+    "hiragana": "どの",
+    "meaningEn": "which",
+    "meaningKo": "어느",
+    "grade": "N5"
+  },
+  {
+    "kanji": "飛ぶ",
+    "hiragana": "とぶ",
+    "meaningEn": "jump",
+    "meaningKo": "날다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "友達",
+    "hiragana": "ともだち",
+    "meaningEn": "friend",
+    "meaningKo": "친구",
+    "grade": "N5"
+  },
+  {
+    "kanji": "土曜日",
+    "hiragana": "どようび",
+    "meaningEn": "Saturday",
+    "meaningKo": "토요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "鳥",
+    "hiragana": "とり",
+    "meaningEn": "bird",
+    "meaningKo": "새",
+    "grade": "N5"
+  },
+  {
+    "kanji": "とり肉",
+    "hiragana": "とりにく",
+    "meaningEn": "chicken meat",
+    "meaningKo": "취한 고기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "取る",
+    "hiragana": "とる",
+    "meaningEn": "take",
+    "meaningKo": "잡다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "撮る",
+    "hiragana": "とる",
+    "meaningEn": "take a picture",
+    "meaningKo": "찍다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ナイフ",
+    "hiragana": "ナイフ",
+    "meaningEn": "knife",
+    "meaningKo": "칼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "長い",
+    "hiragana": "ながい",
+    "meaningEn": "long",
+    "meaningKo": "긴",
+    "grade": "N5"
+  },
+  {
+    "kanji": "鳴く",
+    "hiragana": "なく",
+    "meaningEn": "cry",
+    "meaningKo": "울다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "無くす",
+    "hiragana": "なくす",
+    "meaningEn": "lose",
+    "meaningKo": "잃다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "なぜ",
+    "hiragana": "なぜ",
+    "meaningEn": "why",
+    "meaningKo": "왜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "夏",
+    "hiragana": "なつ",
+    "meaningEn": "summer",
+    "meaningKo": "여름",
+    "grade": "N5"
+  },
+  {
+    "kanji": "夏休み",
+    "hiragana": "なつやすみ",
+    "meaningEn": "summer vacation",
+    "meaningKo": "여름방학",
+    "grade": "N5"
+  },
+  {
+    "kanji": "など",
+    "hiragana": "など",
+    "meaningEn": "etc.",
+    "meaningKo": "등",
+    "grade": "N5"
+  },
+  {
+    "kanji": "七つ",
+    "hiragana": "ななつ",
+    "meaningEn": "seven",
+    "meaningKo": "일곱",
+    "grade": "N5"
+  },
+  {
+    "kanji": "名前",
+    "hiragana": "なまえ",
+    "meaningEn": "name",
+    "meaningKo": "이름",
+    "grade": "N5"
+  },
+  {
+    "kanji": "習う",
+    "hiragana": "ならう",
+    "meaningEn": "learn",
+    "meaningKo": "배우다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "並ぶ",
+    "hiragana": "ならぶ",
+    "meaningEn": "line up",
+    "meaningKo": "늘어선",
+    "grade": "N5"
+  },
+  {
+    "kanji": "並べる",
+    "hiragana": "ならべる",
+    "meaningEn": "line up",
+    "meaningKo": "늘어놓다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "なる",
+    "hiragana": "なる",
+    "meaningEn": "Become",
+    "meaningKo": "하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "二",
+    "hiragana": "に",
+    "meaningEn": "two",
+    "meaningKo": "두",
+    "grade": "N5"
+  },
+  {
+    "kanji": "賑やか",
+    "hiragana": "にぎやか",
+    "meaningEn": "busy",
+    "meaningKo": "활기찬",
+    "grade": "N5"
+  },
+  {
+    "kanji": "肉",
+    "hiragana": "にく",
+    "meaningEn": "meat",
+    "meaningKo": "고기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "西",
+    "hiragana": "にし",
+    "meaningEn": "west",
+    "meaningKo": "서",
+    "grade": "N5"
+  },
+  {
+    "kanji": "日曜日",
+    "hiragana": "にちようび",
+    "meaningEn": "Sunday",
+    "meaningKo": "일요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "荷物",
+    "hiragana": "にもつ",
+    "meaningEn": "luggage",
+    "meaningKo": "수하물",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ニュース",
+    "hiragana": "ニュース",
+    "meaningEn": "news",
+    "meaningKo": "뉴스",
+    "grade": "N5"
+  },
+  {
+    "kanji": "庭",
+    "hiragana": "にわ",
+    "meaningEn": "garden",
+    "meaningKo": "정원",
+    "grade": "N5"
+  },
+  {
+    "kanji": "脱ぐ",
+    "hiragana": "ぬぐ",
+    "meaningEn": "take off",
+    "meaningKo": "벗다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "温い",
+    "hiragana": "ぬるい",
+    "meaningEn": "warm",
+    "meaningKo": "따뜻한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ネクタイ",
+    "hiragana": "ネクタイ",
+    "meaningEn": "tie",
+    "meaningKo": "넥타이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "猫",
+    "hiragana": "ねこ",
+    "meaningEn": "cat",
+    "meaningKo": "고양이",
+    "grade": "N5"
+  },
+  {
+    "kanji": "寝る",
+    "hiragana": "ねる",
+    "meaningEn": "sleep",
+    "meaningKo": "자다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ノート",
+    "hiragana": "ノート",
+    "meaningEn": "notes",
+    "meaningKo": "노트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "登る",
+    "hiragana": "のぼる",
+    "meaningEn": "climb",
+    "meaningKo": "등반",
+    "grade": "N5"
+  },
+  {
+    "kanji": "飲み物",
+    "hiragana": "のみもの",
+    "meaningEn": "drink",
+    "meaningKo": "음료",
+    "grade": "N5"
+  },
+  {
+    "kanji": "飲む",
+    "hiragana": "のむ",
+    "meaningEn": "drink",
+    "meaningKo": "마시다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "乗る",
+    "hiragana": "のる",
+    "meaningEn": "get on",
+    "meaningKo": "타다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "歯",
+    "hiragana": "は",
+    "meaningEn": "teeth",
+    "meaningKo": "치아",
+    "grade": "N5"
+  },
+  {
+    "kanji": "パーティー",
+    "hiragana": "パーティー",
+    "meaningEn": "party",
+    "meaningKo": "파티",
+    "grade": "N5"
+  },
+  {
+    "kanji": "葉書",
+    "hiragana": "はがき",
+    "meaningEn": "postcard",
+    "meaningKo": "엽서",
+    "grade": "N5"
+  },
+  {
+    "kanji": "はく",
+    "hiragana": "はく",
+    "meaningEn": "foil",
+    "meaningKo": "하쿠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "箱",
+    "hiragana": "はこ",
+    "meaningEn": "box",
+    "meaningKo": "박스",
+    "grade": "N5"
+  },
+  {
+    "kanji": "橋",
+    "hiragana": "はし",
+    "meaningEn": "bridge",
+    "meaningKo": "다리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "はし",
+    "hiragana": "はし",
+    "meaningEn": "bridge",
+    "meaningKo": "사다리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "始まる",
+    "hiragana": "はじまる",
+    "meaningEn": "begins",
+    "meaningKo": "시작하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "初め",
+    "hiragana": "はじめ",
+    "meaningEn": "beginning",
+    "meaningKo": "처음",
+    "grade": "N5"
+  },
+  {
+    "kanji": "初めて",
+    "hiragana": "はじめて",
+    "meaningEn": "first time",
+    "meaningKo": "처음",
+    "grade": "N5"
+  },
+  {
+    "kanji": "走る",
+    "hiragana": "はしる",
+    "meaningEn": "run",
+    "meaningKo": "달리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "バス",
+    "hiragana": "バス",
+    "meaningEn": "bus",
+    "meaningKo": "버스",
+    "grade": "N5"
+  },
+  {
+    "kanji": "バター",
+    "hiragana": "バター",
+    "meaningEn": "butter",
+    "meaningKo": "버터",
+    "grade": "N5"
+  },
+  {
+    "kanji": "二十歳",
+    "hiragana": "はたち",
+    "meaningEn": "twenty years old",
+    "meaningKo": "20세",
+    "grade": "N5"
+  },
+  {
+    "kanji": "働く",
+    "hiragana": "はたらく",
+    "meaningEn": "work",
+    "meaningKo": "일하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "八",
+    "hiragana": "はち",
+    "meaningEn": "eight",
+    "meaningKo": "팔",
+    "grade": "N5"
+  },
+  {
+    "kanji": "二十日",
+    "hiragana": "はつか",
+    "meaningEn": "twenty days",
+    "meaningKo": "이십일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "花",
+    "hiragana": "はな",
+    "meaningEn": "flower",
+    "meaningKo": "꽃",
+    "grade": "N5"
+  },
+  {
+    "kanji": "鼻",
+    "hiragana": "はな",
+    "meaningEn": "nose",
+    "meaningKo": "코",
+    "grade": "N5"
+  },
+  {
+    "kanji": "話",
+    "hiragana": "はなし",
+    "meaningEn": "story",
+    "meaningKo": "이야기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "話す",
+    "hiragana": "はなす",
+    "meaningEn": "talk",
+    "meaningKo": "말하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "早い",
+    "hiragana": "はやい",
+    "meaningEn": "early",
+    "meaningKo": "이른",
+    "grade": "N5"
+  },
+  {
+    "kanji": "速い",
+    "hiragana": "はやい",
+    "meaningEn": "fast",
+    "meaningKo": "빠른",
+    "grade": "N5"
+  },
+  {
+    "kanji": "春",
+    "hiragana": "はる",
+    "meaningEn": "spring",
+    "meaningKo": "봄",
+    "grade": "N5"
+  },
+  {
+    "kanji": "貼る",
+    "hiragana": "はる",
+    "meaningEn": "Paste",
+    "meaningKo": "붙이다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "晴れ",
+    "hiragana": "はれ",
+    "meaningEn": "sunny",
+    "meaningKo": "맑음",
+    "grade": "N5"
+  },
+  {
+    "kanji": "晴れる",
+    "hiragana": "はれる",
+    "meaningEn": "It's sunny",
+    "meaningKo": "맑음",
+    "grade": "N5"
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "meaningEn": "half",
+    "meaningKo": "반",
+    "grade": "N5"
+  },
+  {
+    "kanji": "晩",
+    "hiragana": "ばん",
+    "meaningEn": "night",
+    "meaningKo": "밤",
+    "grade": "N5"
+  },
+  {
+    "kanji": "パン",
+    "hiragana": "パン",
+    "meaningEn": "bread",
+    "meaningKo": "빵",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ハンカチ",
+    "hiragana": "ハンカチ",
+    "meaningEn": "handkerchief",
+    "meaningKo": "손수건",
+    "grade": "N5"
+  },
+  {
+    "kanji": "番号",
+    "hiragana": "ばんごう",
+    "meaningEn": "number",
+    "meaningKo": "번호",
+    "grade": "N5"
+  },
+  {
+    "kanji": "晩御飯",
+    "hiragana": "ばんごはん",
+    "meaningEn": "Dinner",
+    "meaningKo": "저녁밥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "半分",
+    "hiragana": "はんぶん",
+    "meaningEn": "half",
+    "meaningKo": "절반",
+    "grade": "N5"
+  },
+  {
+    "kanji": "引く",
+    "hiragana": "ひく",
+    "meaningEn": "Pull",
+    "meaningKo": "당기다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "低い",
+    "hiragana": "ひくい",
+    "meaningEn": "low",
+    "meaningKo": "낮은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "飛行機",
+    "hiragana": "ひこうき",
+    "meaningEn": "plane",
+    "meaningKo": "비행기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "左",
+    "hiragana": "ひだり",
+    "meaningEn": "left",
+    "meaningKo": "왼쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "一つ",
+    "hiragana": "ひとつ",
+    "meaningEn": "one",
+    "meaningKo": "하나",
+    "grade": "N5"
+  },
+  {
+    "kanji": "一月",
+    "hiragana": "ひとつき",
+    "meaningEn": "January",
+    "meaningKo": "1월",
+    "grade": "N5"
+  },
+  {
+    "kanji": "百",
+    "hiragana": "ひゃく",
+    "meaningEn": "hundred",
+    "meaningKo": "백",
+    "grade": "N5"
+  },
+  {
+    "kanji": "病院",
+    "hiragana": "びょういん",
+    "meaningEn": "hospital",
+    "meaningKo": "병원",
+    "grade": "N5"
+  },
+  {
+    "kanji": "病気",
+    "hiragana": "びょうき",
+    "meaningEn": "disease",
+    "meaningKo": "병",
+    "grade": "N5"
+  },
+  {
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "meaningEn": "noon",
+    "meaningKo": "낮",
+    "grade": "N5"
+  },
+  {
+    "kanji": "昼御飯",
+    "hiragana": "ひるごはん",
+    "meaningEn": "Lunch",
+    "meaningKo": "점심밥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "広い",
+    "hiragana": "ひろい",
+    "meaningEn": "wide",
+    "meaningKo": "넓은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "フィルム",
+    "hiragana": "フィルム",
+    "meaningEn": "film",
+    "meaningKo": "영화",
+    "grade": "N5"
+  },
+  {
+    "kanji": "封筒",
+    "hiragana": "ふうとう",
+    "meaningEn": "envelope",
+    "meaningKo": "봉투",
+    "grade": "N5"
+  },
+  {
+    "kanji": "プール",
+    "hiragana": "プール",
+    "meaningEn": "pool",
+    "meaningKo": "풀",
+    "grade": "N5"
+  },
+  {
+    "kanji": "フォーク",
+    "hiragana": "フォーク",
+    "meaningEn": "fork",
+    "meaningKo": "포크",
+    "grade": "N5"
+  },
+  {
+    "kanji": "吹く",
+    "hiragana": "ふく",
+    "meaningEn": "blow",
+    "meaningKo": "불다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "服",
+    "hiragana": "ふく",
+    "meaningEn": "clothes",
+    "meaningKo": "옷",
+    "grade": "N5"
+  },
+  {
+    "kanji": "二つ",
+    "hiragana": "ふたつ",
+    "meaningEn": "two",
+    "meaningKo": "두",
+    "grade": "N5"
+  },
+  {
+    "kanji": "豚肉",
+    "hiragana": "ぶたにく",
+    "meaningEn": "pork",
+    "meaningKo": "돼지고기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "二日",
+    "hiragana": "ふつか",
+    "meaningEn": "two days",
+    "meaningKo": "이틀",
+    "grade": "N5"
+  },
+  {
+    "kanji": "太い",
+    "hiragana": "ふとい",
+    "meaningEn": "thick",
+    "meaningKo": "두꺼운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "冬",
+    "hiragana": "ふゆ",
+    "meaningEn": "winter",
+    "meaningKo": "겨울",
+    "grade": "N5"
+  },
+  {
+    "kanji": "降る",
+    "hiragana": "ふる",
+    "meaningEn": "fall",
+    "meaningKo": "내리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "古い",
+    "hiragana": "ふるい",
+    "meaningEn": "old",
+    "meaningKo": "오래된",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ふろ",
+    "hiragana": "ふろ",
+    "meaningEn": "bath",
+    "meaningKo": "후로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "文章",
+    "hiragana": "ぶんしょう",
+    "meaningEn": "sentence",
+    "meaningKo": "문장",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ページ",
+    "hiragana": "ページ",
+    "meaningEn": "page",
+    "meaningKo": "페이지",
+    "grade": "N5"
+  },
+  {
+    "kanji": "下手",
+    "hiragana": "へた",
+    "meaningEn": "poor",
+    "meaningKo": "나쁜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ベッド",
+    "hiragana": "ベッド",
+    "meaningEn": "bed",
+    "meaningKo": "침대",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ペット",
+    "hiragana": "ペット",
+    "meaningEn": "pet",
+    "meaningKo": "애완동물",
+    "grade": "N5"
+  },
+  {
+    "kanji": "部屋",
+    "hiragana": "へや",
+    "meaningEn": "room",
+    "meaningKo": "방",
+    "grade": "N5"
+  },
+  {
+    "kanji": "辺",
+    "hiragana": "へん",
+    "meaningEn": "side",
+    "meaningKo": "변",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ペン",
+    "hiragana": "ペン",
+    "meaningEn": "pen",
+    "meaningKo": "펜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "便利",
+    "hiragana": "べんり",
+    "meaningEn": "convenience",
+    "meaningKo": "편리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "帽子",
+    "hiragana": "ぼうし",
+    "meaningEn": "hat",
+    "meaningKo": "모자",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ボールペン",
+    "hiragana": "ボールペン",
+    "meaningEn": "ballpoint pen",
+    "meaningKo": "볼펜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ほか",
+    "hiragana": "ほか",
+    "meaningEn": "others",
+    "meaningKo": "그 외",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ポケット",
+    "hiragana": "ポケット",
+    "meaningEn": "pocket",
+    "meaningKo": "포켓",
+    "grade": "N5"
+  },
+  {
+    "kanji": "欲しい",
+    "hiragana": "ほしい",
+    "meaningEn": "want",
+    "meaningKo": "원하는",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ポスト",
+    "hiragana": "ポスト",
+    "meaningEn": "post",
+    "meaningKo": "포스트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "細い",
+    "hiragana": "ほそい",
+    "meaningEn": "thin",
+    "meaningKo": "얇은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ボタン",
+    "hiragana": "ボタン",
+    "meaningEn": "button",
+    "meaningKo": "버튼",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ホテル",
+    "hiragana": "ホテル",
+    "meaningEn": "Hotel",
+    "meaningKo": "호텔",
+    "grade": "N5"
+  },
+  {
+    "kanji": "本",
+    "hiragana": "ほん",
+    "meaningEn": "book",
+    "meaningKo": "책",
+    "grade": "N5"
+  },
+  {
+    "kanji": "本棚",
+    "hiragana": "ほんだな",
+    "meaningEn": "bookshelf",
+    "meaningKo": "책장",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ほんとう",
+    "hiragana": "ほんとう",
+    "meaningEn": "really",
+    "meaningKo": "진짜",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎朝",
+    "hiragana": "まいあさ",
+    "meaningEn": "every morning",
+    "meaningKo": "매일 아침",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎月",
+    "hiragana": "まいげつ, まいつき",
+    "meaningEn": "monthly",
+    "meaningKo": "매월",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎週",
+    "hiragana": "まいしゅう",
+    "meaningEn": "weekly",
+    "meaningKo": "매주",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "meaningEn": "every day",
+    "meaningKo": "매일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎年",
+    "hiragana": "まいねん, まいとし",
+    "meaningEn": "every year",
+    "meaningKo": "매년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "毎晩",
+    "hiragana": "まいばん",
+    "meaningEn": "every night",
+    "meaningKo": "매일 밤",
+    "grade": "N5"
+  },
+  {
+    "kanji": "曲る",
+    "hiragana": "まがる",
+    "meaningEn": "bend",
+    "meaningKo": "구부리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "まずい",
+    "hiragana": "まずい",
+    "meaningEn": "bad",
+    "meaningKo": "좋다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "また",
+    "hiragana": "また",
+    "meaningEn": "Also",
+    "meaningKo": "또",
+    "grade": "N5"
+  },
+  {
+    "kanji": "まだ",
+    "hiragana": "まだ",
+    "meaningEn": "still",
+    "meaningKo": "아직",
+    "grade": "N5"
+  },
+  {
+    "kanji": "町",
+    "hiragana": "まち",
+    "meaningEn": "town",
+    "meaningKo": "마을",
+    "grade": "N5"
+  },
+  {
+    "kanji": "待つ",
+    "hiragana": "まつ",
+    "meaningEn": "wait",
+    "meaningKo": "기다리다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "まっすぐ",
+    "hiragana": "まっすぐ",
+    "meaningEn": "Straight",
+    "meaningKo": "똑바로",
+    "grade": "N5"
+  },
+  {
+    "kanji": "マッチ",
+    "hiragana": "マッチ",
+    "meaningEn": "match",
+    "meaningKo": "성냥",
+    "grade": "N5"
+  },
+  {
+    "kanji": "窓",
+    "hiragana": "まど",
+    "meaningEn": "window",
+    "meaningKo": "창",
+    "grade": "N5"
+  },
+  {
+    "kanji": "万年筆",
+    "hiragana": "まんねんひつ",
+    "meaningEn": "fountain pen",
+    "meaningKo": "만년필",
+    "grade": "N5"
+  },
+  {
+    "kanji": "磨く",
+    "hiragana": "みがく",
+    "meaningEn": "polish",
+    "meaningKo": "닦다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "右",
+    "hiragana": "みぎ",
+    "meaningEn": "right",
+    "meaningKo": "오른쪽",
+    "grade": "N5"
+  },
+  {
+    "kanji": "短い",
+    "hiragana": "みじかい",
+    "meaningEn": "short",
+    "meaningKo": "짧은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "水",
+    "hiragana": "みず",
+    "meaningEn": "water",
+    "meaningKo": "물",
+    "grade": "N5"
+  },
+  {
+    "kanji": "見せる",
+    "hiragana": "みせる",
+    "meaningEn": "show",
+    "meaningKo": "보여주는",
+    "grade": "N5"
+  },
+  {
+    "kanji": "道",
+    "hiragana": "みち",
+    "meaningEn": "road",
+    "meaningKo": "길",
+    "grade": "N5"
+  },
+  {
+    "kanji": "三日",
+    "hiragana": "みっか",
+    "meaningEn": "three days",
+    "meaningKo": "삼일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "三つ",
+    "hiragana": "みっつ",
+    "meaningEn": "three",
+    "meaningKo": "세",
+    "grade": "N5"
+  },
+  {
+    "kanji": "緑",
+    "hiragana": "みどり",
+    "meaningEn": "green",
+    "meaningKo": "녹색",
+    "grade": "N5"
+  },
+  {
+    "kanji": "皆さん",
+    "hiragana": "みなさん",
+    "meaningEn": "everyone",
+    "meaningKo": "여러분",
+    "grade": "N5"
+  },
+  {
+    "kanji": "耳",
+    "hiragana": "みみ",
+    "meaningEn": "ear",
+    "meaningKo": "귀",
+    "grade": "N5"
+  },
+  {
+    "kanji": "見る 観る",
+    "hiragana": "みる",
+    "meaningEn": "see see",
+    "meaningKo": "보기 보기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "みんな",
+    "hiragana": "みんな",
+    "meaningEn": "everyone",
+    "meaningKo": "모두",
+    "grade": "N5"
+  },
+  {
+    "kanji": "六日",
+    "hiragana": "むいか",
+    "meaningEn": "six days",
+    "meaningKo": "6일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "向こう",
+    "hiragana": "むこう",
+    "meaningEn": "beyond",
+    "meaningKo": "저기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "難しい",
+    "hiragana": "むずかしい",
+    "meaningEn": "difficult",
+    "meaningKo": "어려운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "六つ",
+    "hiragana": "むっつ",
+    "meaningEn": "six",
+    "meaningKo": "여섯",
+    "grade": "N5"
+  },
+  {
+    "kanji": "村",
+    "hiragana": "むら",
+    "meaningEn": "village",
+    "meaningKo": "마을",
+    "grade": "N5"
+  },
+  {
+    "kanji": "目",
+    "hiragana": "め",
+    "meaningEn": "eye",
+    "meaningKo": "눈",
+    "grade": "N5"
+  },
+  {
+    "kanji": "メートル",
+    "hiragana": "メートル",
+    "meaningEn": "meter",
+    "meaningKo": "미터",
+    "grade": "N5"
+  },
+  {
+    "kanji": "もう",
+    "hiragana": "もう",
+    "meaningEn": "already",
+    "meaningKo": "이미",
+    "grade": "N5"
+  },
+  {
+    "kanji": "もう一度",
+    "hiragana": "もういちど",
+    "meaningEn": "once again",
+    "meaningKo": "다시",
+    "grade": "N5"
+  },
+  {
+    "kanji": "木曜日",
+    "hiragana": "もくようび",
+    "meaningEn": "Thursday",
+    "meaningKo": "목요일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "持つ",
+    "hiragana": "もつ",
+    "meaningEn": "have",
+    "meaningKo": "갖다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "もっと",
+    "hiragana": "もっと",
+    "meaningEn": "more",
+    "meaningKo": "더",
+    "grade": "N5"
+  },
+  {
+    "kanji": "物",
+    "hiragana": "もの",
+    "meaningEn": "thing",
+    "meaningKo": "물건",
+    "grade": "N5"
+  },
+  {
+    "kanji": "問題",
+    "hiragana": "もんだい",
+    "meaningEn": "problem",
+    "meaningKo": "문제",
+    "grade": "N5"
+  },
+  {
+    "kanji": "八百屋",
+    "hiragana": "やおや",
+    "meaningEn": "Greengrocer",
+    "meaningKo": "야오야",
+    "grade": "N5"
+  },
+  {
+    "kanji": "野菜",
+    "hiragana": "やさい",
+    "meaningEn": "vegetables",
+    "meaningKo": "야채",
+    "grade": "N5"
+  },
+  {
+    "kanji": "易しい",
+    "hiragana": "やさしい",
+    "meaningEn": "easy",
+    "meaningKo": "쉬운",
+    "grade": "N5"
+  },
+  {
+    "kanji": "安い",
+    "hiragana": "やすい",
+    "meaningEn": "cheap",
+    "meaningKo": "싸다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "休み",
+    "hiragana": "やすみ",
+    "meaningEn": "holiday",
+    "meaningKo": "휴가",
+    "grade": "N5"
+  },
+  {
+    "kanji": "休む",
+    "hiragana": "やすむ",
+    "meaningEn": "rest",
+    "meaningKo": "쉬다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "八つ",
+    "hiragana": "やっつ",
+    "meaningEn": "eight",
+    "meaningKo": "여덟",
+    "grade": "N5"
+  },
+  {
+    "kanji": "山",
+    "hiragana": "やま",
+    "meaningEn": "mountain",
+    "meaningKo": "산",
+    "grade": "N5"
+  },
+  {
+    "kanji": "やる",
+    "hiragana": "やる",
+    "meaningEn": "do",
+    "meaningKo": "하다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "夕方",
+    "hiragana": "ゆうがた",
+    "meaningEn": "evening",
+    "meaningKo": "저녁",
+    "grade": "N5"
+  },
+  {
+    "kanji": "夕飯",
+    "hiragana": "ゆうはん",
+    "meaningEn": "Dinner",
+    "meaningKo": "저녁",
+    "grade": "N5"
+  },
+  {
+    "kanji": "郵便局",
+    "hiragana": "ゆうびんきょく",
+    "meaningEn": "post office",
+    "meaningKo": "우체국",
+    "grade": "N5"
+  },
+  {
+    "kanji": "昨夜",
+    "hiragana": "ゆうべ",
+    "meaningEn": "last night",
+    "meaningKo": "어젯밤",
+    "grade": "N5"
+  },
+  {
+    "kanji": "有名",
+    "hiragana": "ゆうめい",
+    "meaningEn": "famous",
+    "meaningKo": "유명",
+    "grade": "N5"
+  },
+  {
+    "kanji": "雪",
+    "hiragana": "ゆき",
+    "meaningEn": "snow",
+    "meaningKo": "눈",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ゆっくりと",
+    "hiragana": "ゆっくりと",
+    "meaningEn": "slowly",
+    "meaningKo": "천천히",
+    "grade": "N5"
+  },
+  {
+    "kanji": "八日",
+    "hiragana": "ようか",
+    "meaningEn": "Eight days",
+    "meaningKo": "팔일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "洋服",
+    "hiragana": "ようふく",
+    "meaningEn": "clothes",
+    "meaningKo": "옷",
+    "grade": "N5"
+  },
+  {
+    "kanji": "よく",
+    "hiragana": "よく",
+    "meaningEn": "often",
+    "meaningKo": "잘",
+    "grade": "N5"
+  },
+  {
+    "kanji": "横",
+    "hiragana": "よこ",
+    "meaningEn": "beside",
+    "meaningKo": "수평",
+    "grade": "N5"
+  },
+  {
+    "kanji": "四日",
+    "hiragana": "よっか",
+    "meaningEn": "four days",
+    "meaningKo": "4일",
+    "grade": "N5"
+  },
+  {
+    "kanji": "四つ",
+    "hiragana": "よっつ",
+    "meaningEn": "four",
+    "meaningKo": "네",
+    "grade": "N5"
+  },
+  {
+    "kanji": "呼ぶ",
+    "hiragana": "よぶ",
+    "meaningEn": "call",
+    "meaningKo": "부르다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "読む",
+    "hiragana": "よむ",
+    "meaningEn": "read",
+    "meaningKo": "읽기",
+    "grade": "N5"
+  },
+  {
+    "kanji": "弱い",
+    "hiragana": "よわい",
+    "meaningEn": "weak",
+    "meaningKo": "약한",
+    "grade": "N5"
+  },
+  {
+    "kanji": "来月",
+    "hiragana": "らいげつ",
+    "meaningEn": "next month",
+    "meaningKo": "다음 달",
+    "grade": "N5"
+  },
+  {
+    "kanji": "来週",
+    "hiragana": "らいしゅう",
+    "meaningEn": "next week",
+    "meaningKo": "다음주",
+    "grade": "N5"
+  },
+  {
+    "kanji": "来年",
+    "hiragana": "らいねん",
+    "meaningEn": "next year",
+    "meaningKo": "내년",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ラジオ",
+    "hiragana": "ラジオ",
+    "meaningEn": "radio",
+    "meaningKo": "라디오",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ラジカセ",
+    "hiragana": "ラジカセ",
+    "meaningEn": "radio cassette player",
+    "meaningKo": "라디오 카세",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ラジオカセット",
+    "hiragana": "ラジオカセット",
+    "meaningEn": "radio cassette",
+    "meaningKo": "라디오 카세트",
+    "grade": "N5"
+  },
+  {
+    "kanji": "りっぱ",
+    "hiragana": "りっぱ",
+    "meaningEn": "Rippa",
+    "meaningKo": "리파",
+    "grade": "N5"
+  },
+  {
+    "kanji": "留学生",
+    "hiragana": "りゅうがくせい",
+    "meaningEn": "international student",
+    "meaningKo": "유학생",
+    "grade": "N5"
+  },
+  {
+    "kanji": "両親",
+    "hiragana": "りょうしん",
+    "meaningEn": "parents",
+    "meaningKo": "부모님",
+    "grade": "N5"
+  },
+  {
+    "kanji": "料理",
+    "hiragana": "りょうり",
+    "meaningEn": "cooking",
+    "meaningKo": "요리",
+    "grade": "N5"
+  },
+  {
+    "kanji": "旅行",
+    "hiragana": "りょこう",
+    "meaningEn": "trip",
+    "meaningKo": "여행",
+    "grade": "N5"
+  },
+  {
+    "kanji": "零",
+    "hiragana": "れい",
+    "meaningEn": "zero",
+    "meaningKo": "0",
+    "grade": "N5"
+  },
+  {
+    "kanji": "冷蔵庫",
+    "hiragana": "れいぞうこ",
+    "meaningEn": "refrigerator",
+    "meaningKo": "냉장고",
+    "grade": "N5"
+  },
+  {
+    "kanji": "レコード",
+    "hiragana": "レコード",
+    "meaningEn": "record",
+    "meaningKo": "기록",
+    "grade": "N5"
+  },
+  {
+    "kanji": "レストラン",
+    "hiragana": "レストラン",
+    "meaningEn": "restaurant",
+    "meaningKo": "레스토랑",
+    "grade": "N5"
+  },
+  {
+    "kanji": "廊下",
+    "hiragana": "ろうか",
+    "meaningEn": "corridor",
+    "meaningKo": "복도",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ワイシャツ",
+    "hiragana": "ワイシャツ",
+    "meaningEn": "shirt",
+    "meaningKo": "셔츠",
+    "grade": "N5"
+  },
+  {
+    "kanji": "若い",
+    "hiragana": "わかい",
+    "meaningEn": "young",
+    "meaningKo": "젊은",
+    "grade": "N5"
+  },
+  {
+    "kanji": "分かる",
+    "hiragana": "わかる",
+    "meaningEn": "I understand",
+    "meaningKo": "알다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "忘れる",
+    "hiragana": "わすれる",
+    "meaningEn": "forget",
+    "meaningKo": "잊다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "渡す",
+    "hiragana": "わたす",
+    "meaningEn": "hand over",
+    "meaningKo": "전달",
+    "grade": "N5"
+  },
+  {
+    "kanji": "渡る",
+    "hiragana": "わたる",
+    "meaningEn": "cross",
+    "meaningKo": "건너다",
+    "grade": "N5"
+  },
+  {
+    "kanji": "ほう",
+    "hiragana": "より, ほう",
+    "meaningEn": "law",
+    "meaningKo": "호",
+    "grade": "N5"
+  }
+]
