@@ -87,7 +87,7 @@ extension KanjiViewModel {
     }
     
     func updateKanjiBookmarkState(_ kanji: Kanji, isBookmarked: Bool) {
-        coreDataManager.updateBookmardKanji(kanji, isBookmark: isBookmarked)
+        coreDataManager.updateBookmarkedKanji(kanji, isBookmark: isBookmarked)
     }
 }
 

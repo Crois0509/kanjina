@@ -106,7 +106,7 @@ extension CoreDataManager {
         }
     }
     
-    func updateBookmardKanji(_ item: Kanji, isBookmark: Bool) {
+    func updateBookmarkedKanji(_ item: Kanji, isBookmark: Bool) {
         let context = container.viewContext
         let fetchRequest = KanjiEntity.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "bookmark == true")
