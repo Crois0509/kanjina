@@ -8,9 +8,34 @@
 import Foundation
 import CoreData
 
+enum EntityType: String {
+    case kanji = "KanjiEntity"
+    case learningTime = "DailyStudySummary"
+}
+
+protocol CoreDataManagable {
+    func saveLearningRecord(grade: JLPTGrade, level: Int, results: [KanjiLearningResult])
+    func saveLearningTime(_ study: DailyStudy)
+    func updateBookmarkedKanji(_ item: Kanji, isBookmark: Bool)
+    
+    func fetchAllRecords() -> [LearningKanji]
+    func fetchLearningTimeList() -> [DailyStudy]
+    func fetchLearningWeeklyTimeList() -> [DailyStudy]
+    func fetchBookmarkKanjis() -> [Kanji]
+    
+    func removeAllData(entity: EntityType)
+}
+
+protocol CoreDataCRUDProtocol {
+    func saveLearningRecord(grade: JLPTGrade, level: Int, results: [KanjiLearningResult])
+    func saveLearningTime(_ study: DailyStudy)
+    func updateBookmarkedKanji(_ item: Kanji, isBookmark: Bool)
+    func removeAllData(entity: EntityType)
+}
+
 // MARK: - CoreData Manager
 
-struct CoreDataManager {
+struct CoreDataManager: CoreDataManagable {
     let container: NSPersistentContainer
     
     init() {
@@ -300,11 +325,6 @@ extension CoreDataManager {
 // MARK: - CoreData Delete Method
 
 extension CoreDataManager {
-    
-    enum EntityType: String {
-        case kanji = "KanjiEntity"
-        case learningTime = "DailyStudySummary"
-    }
     
     /// CoreData에 저장된 지정 Entity의 모든 데이터를 삭제하는 메서드
     /// - Parameter entity: 삭제할 Entity 타입

@@ -14,11 +14,12 @@ import Combine
 final class DIContainer {
     lazy var kanjiManager = KanjiDataManager()
     lazy var coreDataManager = CoreDataManager()
-    lazy var viewModel = KanjiViewModel(
-        coreDataManager: coreDataManager
-    )
+    
     lazy var appViewModel = AppViewModel(
         kanjiManager: kanjiManager,
         coreDataManager: coreDataManager
+    )
+    lazy var kanjiViewModel = KanjiViewModel(
+        coreDataManager: appViewModel
     )
 }

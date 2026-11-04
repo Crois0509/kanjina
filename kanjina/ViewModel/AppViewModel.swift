@@ -25,11 +25,11 @@ final class AppViewModel: ObservableObject {
     @Published var state = AppState()
     
     private let kanjiManager: KanjiDataManager // 한자 정보를 불러오는 관리 객체
-    private let coreDataManager: CoreDataManager // 로컬 데이터 저장 객체
+    private let coreDataManager: CoreDataManagable // 로컬 데이터 저장 객체
         
     init(
         kanjiManager: KanjiDataManager,
-        coreDataManager: CoreDataManager
+        coreDataManager: CoreDataManagable
     ) {
         self.kanjiManager = kanjiManager
         self.coreDataManager = coreDataManager
@@ -109,3 +109,22 @@ extension AppViewModel {
     }
 }
 
+// MARK: - AppViewModel CoreDataCRUDProtocol Method
+
+extension AppViewModel: CoreDataCRUDProtocol {
+    func saveLearningRecord(grade: JLPTGrade, level: Int, results: [KanjiLearningResult]) {
+        coreDataManager.saveLearningRecord(grade: grade, level: level, results: results)
+    }
+    
+    func saveLearningTime(_ study: DailyStudy) {
+        coreDataManager.saveLearningTime(study)
+    }
+    
+    func updateBookmarkedKanji(_ item: Kanji, isBookmark: Bool) {
+        coreDataManager.updateBookmarkedKanji(item, isBookmark: isBookmark)
+    }
+    
+    func removeAllData(entity: EntityType) {
+        coreDataManager.removeAllData(entity: entity)
+    }
+}

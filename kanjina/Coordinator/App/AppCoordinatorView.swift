@@ -14,7 +14,7 @@ struct AppCoordinatorView: View {
     
     @StateObject private var appCoordinator: AppCoordinator
     @StateObject private var appViewModel: AppViewModel
-    @StateObject private var viewModel: KanjiViewModel
+    @StateObject private var kanjiViewModel: KanjiViewModel
     
     @State private var isLaunchView: Bool = true
     
@@ -23,7 +23,7 @@ struct AppCoordinatorView: View {
     init(appCoordinator: AppCoordinator, diContainer: DIContainer) {
         self._appCoordinator = StateObject(wrappedValue: appCoordinator)
         self._appViewModel = StateObject(wrappedValue: diContainer.appViewModel)
-        self._viewModel = StateObject(wrappedValue: diContainer.viewModel)
+        self._kanjiViewModel = StateObject(wrappedValue: diContainer.kanjiViewModel)
         self.diContainer = diContainer
     }
     
@@ -34,7 +34,7 @@ struct AppCoordinatorView: View {
                     .transition(.opacity)
             } else {
                 appCoordinator.build()
-                    .environmentObject(viewModel)
+                    .environmentObject(kanjiViewModel)
             }
         }
         .animation(.easeInOut, value: isLaunchView)
@@ -53,7 +53,7 @@ struct AppCoordinatorView: View {
             appViewModel.handleCoreDataSave(notification: notification)
         }
         .onChange(of: appViewModel.state) { _, state in
-            viewModel.updateState(
+            kanjiViewModel.updateState(
                 jlpt: state.jlpt,
                 numberOfKanjiByGrade: state.numberOfKanjiByGrade,
                 learningKanjiList: state.learningKanjiList,
