@@ -28,7 +28,7 @@ struct AppCoordinatorView: View {
     var body: some View {
         ZStack {
             if isLaunchView {
-                OnboardingView()
+                LaunchView()
                     .transition(.opacity)
             } else {
                 appCoordinator.build()

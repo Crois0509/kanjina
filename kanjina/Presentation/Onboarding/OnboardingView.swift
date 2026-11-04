@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct OnboardingView: View {
+// MARK: - Launch View
+
+struct LaunchView: View {
         
     var body: some View {
         ZStack {
@@ -43,8 +45,4 @@ struct OnboardingView: View {
         }
         .ignoresSafeArea()
     }
-}
-
-#Preview {
-    OnboardingView()
 }
