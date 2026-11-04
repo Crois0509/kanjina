@@ -8,9 +8,13 @@
 import SwiftUI
 import Charts
 
+enum QuestionResultType: String {
+    case success, fail
+}
+
 struct QuestionResult: Identifiable {
     let id = UUID()
-    let type: String
+    let type: QuestionResultType
     let count: Int
 }
 
@@ -32,8 +36,8 @@ struct LearningSituationView: View {
         self.failCount = failCount
         
         self.results = [
-            QuestionResult(type: "isSuccessful", count: successfulCount),
-            QuestionResult(type: "fail", count: failCount)
+            QuestionResult(type: .success, count: successfulCount),
+            QuestionResult(type: .fail, count: failCount)
         ]
     }
     
@@ -46,12 +50,12 @@ struct LearningSituationView: View {
                     angularInset: 1.5
                 )
                 .cornerRadius(8.0)
-                .foregroundStyle(by: .value("Type", element.type))
+                .foregroundStyle(by: .value("Type", element.type.rawValue))
             }
             .chartLegend(.hidden)
             .chartForegroundStyleScale([
-                "isSuccessful": Color.blue.gradient,
-                "fail": Color.red.opacity(0.8).gradient
+                QuestionResultType.success.rawValue: Color.blue.gradient,
+                QuestionResultType.fail.rawValue: Color.red.opacity(0.8).gradient
             ])
             
             Spacer()
