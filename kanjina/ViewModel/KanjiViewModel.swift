@@ -36,17 +36,12 @@ final class KanjiViewModel: ObservableObject {
     @Published var state = ViewModelState()
     @Published var toastAlarm = ToastAlarm()
     
-    private let kanjiManager: KanjiDataManager
-    private let coreDataManager: CoreDataManager
+    private let coreDataManager: CoreDataManager // 로컬 데이터 저장 관리 객체
     
     private var timer: Timer? = nil
     private var searchTask: Task<Void, Never>?
     
-    init(
-        kanjiManager: KanjiDataManager,
-        coreDataManager: CoreDataManager
-    ) {
-        self.kanjiManager = kanjiManager
+    init(coreDataManager: CoreDataManager) {
         self.coreDataManager = coreDataManager
     }
 }

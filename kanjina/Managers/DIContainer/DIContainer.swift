@@ -13,7 +13,6 @@ final class DIContainer {
     lazy var kanjiManager = KanjiDataManager()
     lazy var coreDataManager = CoreDataManager()
     lazy var viewModel = KanjiViewModel(
-        kanjiManager: kanjiManager,
         coreDataManager: coreDataManager
     )
     lazy var appViewModel = AppViewModel(
