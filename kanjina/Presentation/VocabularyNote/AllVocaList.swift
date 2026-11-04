@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - AllVocaList View
+
 struct AllVocaListView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
@@ -23,17 +25,20 @@ struct AllVocaListView: View {
         GeometryReader { geometry in
             ZStack(alignment: .top) {
                 VStack(alignment: .center, spacing: 16) {
+                    // 검색바
                     CommonSearchView(
                         input: $searchInput,
                         placeholder: "한자, 뜻, 히라가나 등으로 검색해 주세요"
                     )
                     .padding(.horizontal, 20)
                     
+                    // 세그먼트 컨트롤 (JLPT 급수 선택)
                     CommonSegmentedControl(
                         selection: $selectedIndex,
                         items: grades
                     )
                     
+                    // 한자 단어 목록
                     if viewModel.state.searchVocaKanjiList.isEmpty {
                         Text(searchInput.isEmpty ? "단어장을 불러올 수 없습니다.\n잠시후 다시 시도해주세요." : "검색 결과가 없습니다.")
                             .multilineTextAlignment(.center)
@@ -101,7 +106,11 @@ struct AllVocaListView: View {
     }
 }
 
+// MARK: - AllVocaList View Private Method
+
 private extension AllVocaListView {
+    /// 한자 상세 정보를 담는 시트를 설정하는 메서드
+    /// - Parameter item: 한자 정보
     func setSheetState(_ item: Kanji) {
         sheetState.kanji = item
         sheetState.isBookmarked = viewModel.checkBookmarked(kanji: item)

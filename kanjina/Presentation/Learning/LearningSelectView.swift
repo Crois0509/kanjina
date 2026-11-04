@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - LearningSelect View
+
 struct LearningSelectView: View {
     
     @EnvironmentObject private var coordinator: LearningCoordinator
@@ -18,6 +20,7 @@ struct LearningSelectView: View {
     
     var body: some View {
         ZStack {
+            // Main
             VStack(alignment: .leading, spacing: 0) {
                 Text("급수별 단어 학습")
                     .foregroundStyle(Color.black)
@@ -69,6 +72,7 @@ struct LearningSelectView: View {
             .padding(.top, 10)
             .padding(.horizontal, 20)
             
+            // Level Select Alert
             PickerAlertView(
                 isShowing: $isShowingAlert,
                 selection: $selectLevel,

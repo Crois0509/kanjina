@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// MARK: - DIContainer
+
 @MainActor
 final class DIContainer {
     lazy var kanjiManager = KanjiDataManager()

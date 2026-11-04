@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 내 정보 페이지의 각 섹션을 분류할 Title UI
 struct MyPageSection: View {
     
     let title: String

@@ -8,10 +8,14 @@
 import SwiftUI
 import Combine
 
+// MARK: - MyPageCoordinator Route
+
 enum MyPageRoute: Hashable {
     case home
     case situation
 }
+
+// MARK: - MyPageCoordinator Model
 
 final class MyPageCoordinator: Coordinator {
     typealias Route = MyPageRoute
@@ -25,6 +29,8 @@ final class MyPageCoordinator: Coordinator {
         )
     }
 }
+
+// MARK: - MyPageCoordinator Method
 
 extension MyPageCoordinator {
     func push(_ view: MyPageRoute) {

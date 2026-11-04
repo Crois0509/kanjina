@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 셀
 struct ListCell: View {
     
     @Binding var isMemorizationMode: Bool

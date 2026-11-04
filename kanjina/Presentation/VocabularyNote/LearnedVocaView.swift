@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - LearnedVoca View
+
 struct LearnedVocaView: View {
     
     enum LearnedVocaType: String, CaseIterable {
@@ -23,6 +25,7 @@ struct LearnedVocaView: View {
     @State private var selectIndex = 0
     @State private var isMemorizationMode = false
     
+    // 검색&필터링된 한자 리스트
     private var resultList: [(title: String, items: [LearningKanji])] {
         let type = LearnedVocaType.allCases[selectIndex]
         
@@ -49,17 +52,20 @@ struct LearnedVocaView: View {
         GeometryReader { geometry in
             ZStack(alignment: .top) {
                 VStack(alignment: .center, spacing: 16) {
+                    // 검색바
                     CommonSearchView(
                         input: $searchInput,
                         placeholder: "한자, 뜻, 히라가나 등으로 검색해 주세요"
                     )
                     .padding(.horizontal, 20)
                     
+                    // 세그먼트 컨트롤 (학습 상태 선택)
                     CommonSegmentedControl(
                         selection: $selectIndex,
                         items: LearnedVocaType.allCases.map { $0.rawValue }
                     )
                     
+                    // 한자 리스트
                     if resultList.allSatisfy({ $0.items.isEmpty }) {
                         Text(searchInput.isEmpty ? "학습한 단어가 없습니다." : "검색 결과가 없습니다.")
                             .multilineTextAlignment(.center)
@@ -126,6 +132,8 @@ struct LearnedVocaView: View {
         }
     }
     
+    /// 한자 상세 정보를 표시하는 Sheet를 설정하는 메서드
+    /// - Parameter item: 학습한 한자 정보
     private func setSheetState(_ item: LearningKanji) {
         sheetState.kanji = item.kanji
         sheetState.isSuccessful = item.isSuccessful

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 버튼 뷰(부드러운 애니메이션 적용)
 struct SmoothAnimationButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label

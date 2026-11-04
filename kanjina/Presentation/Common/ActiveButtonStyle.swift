@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 버튼 스타일
 struct ActiveButtonStyle: ButtonStyle {
     
     @Binding var isDisabled: Bool

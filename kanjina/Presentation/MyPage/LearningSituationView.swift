@@ -8,15 +8,19 @@
 import SwiftUI
 import Charts
 
+/// 문제의 정답 여부를 분류하는 Enum
 enum QuestionResultType: String {
     case success, fail
 }
 
+/// 문제의 학습 결과 객체
 struct QuestionResult: Identifiable {
     let id = UUID()
     let type: QuestionResultType
     let count: Int
 }
+
+// MARK: - LearningSituation View
 
 struct LearningSituationView: View {
     

@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 
+/// 공용 시트 상태 객체
 final class SheetState: ObservableObject {
     @Published var isShowSheet: Bool = false
     @Published var kanji: Kanji? = nil

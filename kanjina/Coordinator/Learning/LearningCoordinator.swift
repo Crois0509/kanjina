@@ -8,11 +8,15 @@
 import SwiftUI
 import Combine
 
+// MARK: - LearningCoordinator Route
+
 enum LearningRoute: Hashable {
     case home
     case learning
     case complete
 }
+
+// MARK: - LearningCoordinator Model
 
 final class LearningCoordinator: Coordinator {
     typealias Route = LearningRoute
@@ -26,6 +30,8 @@ final class LearningCoordinator: Coordinator {
         )
     }
 }
+
+// MARK: - LearningCoordinator Model Method
 
 extension LearningCoordinator {
     func push(_ view: LearningRoute) {

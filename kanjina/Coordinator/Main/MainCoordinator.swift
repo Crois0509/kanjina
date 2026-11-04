@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+// MARK: - MainCoordinator Model
+
 final class MainCoordinator: ObservableObject {
     @Published var learningCoordinator: LearningCoordinator
     @Published var vocabularyNoteCoordinator: VocabularyNoteCoordinator

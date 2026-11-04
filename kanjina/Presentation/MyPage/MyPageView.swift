@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - MyPage View
+
 struct MyPageView: View {
     
     @EnvironmentObject private var coordinator: MyPageCoordinator

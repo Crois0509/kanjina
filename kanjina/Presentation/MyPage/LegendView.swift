@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 그래프에서 사용할 범례용 UI
 struct LegendView: View {
     
     var title: String

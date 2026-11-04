@@ -20,7 +20,7 @@ struct kanjinaApp: App {
                 appCoordinator: AppCoordinator(),
                 diContainer: diContainer
             )
-            .id(resetTrigger)
+            .id(resetTrigger) // 데이터 초기화 시 UI 새로고침을 위한 ID 지정
         }
     }
 }

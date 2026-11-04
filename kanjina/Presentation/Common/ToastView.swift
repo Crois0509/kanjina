@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 토스트 메세지 뷰
 struct ToastView: View {
     var message: String
     

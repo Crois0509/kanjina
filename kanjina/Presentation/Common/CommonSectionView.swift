@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 한자 섹션 뷰
 struct CommonSectionView: View {
     
     let title: String

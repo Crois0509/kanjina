@@ -7,16 +7,19 @@
 
 import SwiftUI
 
+// MARK: - Main View
+
 struct MainView: View {
     
     @EnvironmentObject private var coordinator: MainCoordinator
     @EnvironmentObject private var viewModel: KanjiViewModel
     
-    @Binding var selection: TabSelection
+    @Binding var selection: TabSelection // 현재 선택된 탭
     
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
             TabView(selection: $selection) {
+                // JLPT 단어 학습(메인)
                 Tab(value: .learning) {
                     LearningCoordinatorView()
                         .environmentObject(coordinator.learningCoordinator)
@@ -26,6 +29,7 @@ struct MainView: View {
                     Text("학습")
                 }
                 
+                // 단어장 학습
                 Tab(value: .vocabulary) {
                     VocabularyNoteCoordinatorView()
                         .environmentObject(coordinator.vocabularyNoteCoordinator)
@@ -35,6 +39,7 @@ struct MainView: View {
                     Text("단어장")
                 }
                 
+                // 마이페이지&설정
                 Tab(value: .setting) {
                     MyPageCoordinatorView()
                         .environmentObject(coordinator.settingCoordinator)

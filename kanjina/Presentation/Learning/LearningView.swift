@@ -8,8 +8,13 @@
 import SwiftUI
 import Combine
 
+// MARK: - Learning View
+
 struct LearningView: View {
     
+    // MARK: - State Properties
+    
+    // App State
     @Environment(\.scenePhase) var scenePhase
     @Environment(\.dismiss) private var dismiss
     
@@ -19,42 +24,48 @@ struct LearningView: View {
     
     @State private var navTitle: String?
     
+    // Button State
     @State private var failButtonIsDisabled: Bool = false
     @State private var reviewMode: Bool = false
     
+    // Timer State
     @State private var saveSeconds: Int = 0
     @State private var saveRemainingTime: Int = 0
     
+    // Question State
     @State private var questions: [Kanji] = []
     @State private var solvedQuestions: [ProgressState] = []
     @State private var questionIndex: Int = 0
     
+    // Learning State
     @State private var hangleIsHidden: Bool = true
     @State private var hiraganaIsHidden: Bool = true
     @State private var bookmarkCurrentWord: Bool = false
     @State private var bookmarkButtonIsHidden: Bool = false
     
+    // Alert State
     @State private var isShowingLearningStopAlert: Bool = false
     @State private var isShowingReviewAlert: Bool = false
     @State private var isShowingDangerAlert: Bool = false
         
+    // Button Grid
     private let grids: [GridItem] = Array(
         repeating: GridItem(.flexible(), spacing: 10),
         count: 2
     )
     
-    private var questionsCount: Int {
-        questions.count
-    }
+    // Question Help Properties
+    private var questionsCount: Int { questions.count }
+    private var failQuestionCount: Int { solvedQuestions.count(where: { $0.qState != .success }) }
     
-    private var failQuestionCount: Int {
-        solvedQuestions.count(where: { $0.qState != .success })
-    }
-    
+    // Navigation Help Closure
     var onPushToView: () -> Void
+    
+    // MARK: - UI
     
     var body: some View {
         VStack(alignment: .center) {
+            // Top Header
             HStack {
                 Text("공부시간: \(viewModel.state.learningTime.formatTime)")
                     .foregroundStyle(.black)
@@ -73,6 +84,7 @@ struct LearningView: View {
             )
             .frame(maxWidth: .infinity)
             
+            // Main Question
             ZStack(alignment: .center) {
                 RoundedRectangle(cornerRadius: 20)
                     .foregroundStyle(Color.white)
@@ -111,6 +123,7 @@ struct LearningView: View {
             }
             .padding(.vertical, 20)
             
+            // Buttons
             LazyVGrid(columns: grids, alignment: .center, spacing: 10) {
                 Button("한국어") {
                     hangleIsHidden = false
@@ -250,7 +263,11 @@ struct LearningView: View {
     }
 }
 
+// MARK: - Learning View Method
+
 extension LearningView {
+    /// 현재 화면의 상태를 초기화 하는 메서드
+    /// - 다음 문제로 넘어가기 전 상태 초기화
     func resetState() {
         withAnimation(.bouncy) {
             let current = questions[questionIndex]
@@ -286,6 +303,8 @@ extension LearningView {
         }
     }
     
+    /// 다시 학습을 위한 세팅을 하는 메서드
+    /// - 학습을 마친 후 다시 학습을 선택할 시 초기 상태로 초기화를 위한 메서드
     func setReviewLearning() {
         reviewMode = true
         questionIndex = 0

@@ -7,8 +7,12 @@
 
 import Foundation
 
+// MARK: - KanjiDataManager
+
 final class KanjiDataManager {
     
+    /// 앱에 등록된 모든 한자를 불러와 변환하는 메서드
+    /// - Returns: 급수별 한자 목록 + 급수별 한자 수의 배열
     func loadAllKanjiData() throws(KanjiError) -> [(kanjiLists: [KanjiList], totalKanjiCount: Int)] {
         let grades = JLPTGrade.allCases
         var kanjiLists = [([KanjiList], Int)]()
@@ -33,7 +37,13 @@ final class KanjiDataManager {
     }
 }
 
+// MARK: - KanjiDataManager Private Method
+
 private extension KanjiDataManager {
+    
+    /// 급수별 한자 데이터를 변환하는 메서드
+    /// - Parameter grade: 불러올 급수
+    /// - Returns: 급수별 한자 목록
     func loadKanjiData(for grade: JLPTGrade) throws(KanjiError) -> [Kanji] {
         guard let url = Bundle.main.url(forResource: "jlpt_\(grade.rawValue)", withExtension: "json") else {
             throw .fileNotFound
@@ -70,6 +80,9 @@ private extension KanjiDataManager {
         }
     }
     
+    /// 한자 목록을 레벨로 분류해주는 메서드
+    /// - Parameter items: 분류한 한자 목록
+    /// - Returns: 레벨별로 분류된 한자 목록
     func groupedForLevel(_ items: [Kanji]) -> [KanjiList] {
         guard !items.isEmpty else { return [] }
         

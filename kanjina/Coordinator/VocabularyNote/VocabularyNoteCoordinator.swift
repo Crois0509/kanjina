@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// MARK: - VocabularyNoteCoordinator Route
+
 enum VocabularyNoteRoute: Hashable {
     case home
     case learnedVoca
@@ -16,6 +18,8 @@ enum VocabularyNoteRoute: Hashable {
     case bookmarkLearning
     case learningComplete
 }
+
+// MARK: - VocabularyNoteCoordinator Model
 
 final class VocabularyNoteCoordinator: Coordinator {
     typealias Route = VocabularyNoteRoute
@@ -29,6 +33,8 @@ final class VocabularyNoteCoordinator: Coordinator {
         )
     }
 }
+
+// MARK: - VocabularyNoteCoordinator Model Method
 
 extension VocabularyNoteCoordinator {
     func push(_ view: VocabularyNoteRoute) {

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 캡슐 뷰
 struct CommonCapsuleView: View {
     
     let title: String

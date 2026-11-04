@@ -7,6 +7,8 @@
 
 import Foundation
 
+// MARK: - CoreData에서 사용하는 변수명 저장용 enum
+
 enum CoreDataConfig {
     static let kanjiContainer = "KanjiContainer"
     static let kanji = "KanjiEntity"

@@ -9,16 +9,17 @@ import SwiftUI
 import Combine
 import CoreData
 
+/// KanjiViewModel이 관리할 Status
 struct ViewModelState {
     var isLoading: Bool = false // 현재 로딩 상태
     var jlpt: [[KanjiList]] = [] // 전체 한자 리스트
     var numberOfKanjiByGrade: [Int] = [] // 급수별 한자 수
-    var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:]
+    var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:] // 최적화된 급수별 한자 목록
     
     var learningKanjiList: [LearningKanji] = [] // 학습한 한자 리스트
     var dailyStudySummary: [DailyStudy] = [] // 학습한 시간 리스트
     var searchLearnedKanjiList: [(title: String, items: [LearningKanji])] = [] // 검색한 학습 한자 리스트
-    var searchVocaKanjiList: [(title: String, items: [Kanji])] = []
+    var searchVocaKanjiList: [(title: String, items: [Kanji])] = [] // 검색한 한자 리스트
     
     var bookmarkKanjiList: [Kanji] = [] // 북마크한 한자 리스트
     var currentLearningKanjiList: KanjiList? = nil // 현재 학습 중인 한자 리스트
@@ -27,10 +28,13 @@ struct ViewModelState {
     var remainingTime: Int = 5 // 문제별 제한시간
 }
 
+/// Toast Message를 표시할 때 사용할 파라미터 객체
 struct ToastAlarm {
     var isShowing: Bool = false
     var message: String = ""
 }
+
+// MARK: - KanjiViewModel
 
 final class KanjiViewModel: ObservableObject {
     @Published var state = ViewModelState()
@@ -39,7 +43,7 @@ final class KanjiViewModel: ObservableObject {
     private let coreDataManager: CoreDataManager // 로컬 데이터 저장 관리 객체
     
     private var timer: Timer? = nil
-    private var searchTask: Task<Void, Never>?
+    private var searchTask: Task<Void, Never>? // 검색 부하 방지용 테스크
     
     init(coreDataManager: CoreDataManager) {
         self.coreDataManager = coreDataManager
@@ -81,6 +85,10 @@ extension KanjiViewModel {
         LocalStorage.removeAllData()
     }
     
+    /// 한자의 북마크 상태를 업데이트 하는 메서드
+    /// - Parameters:
+    ///   - kanji: 한자 정보
+    ///   - isBookmarked: 북마크 여부
     func updateKanjiBookmarkState(_ kanji: Kanji, isBookmarked: Bool) {
         coreDataManager.updateBookmarkedKanji(kanji, isBookmark: isBookmarked)
     }
@@ -89,6 +97,12 @@ extension KanjiViewModel {
 // MARK: - 단어 학습 관련 Method
 
 extension KanjiViewModel {
+    
+    /// 학습 한자의 정답 여부를 판단하고 현재 학습 목록을 업데이트 하는 메서드
+    /// - Parameters:
+    ///   - kanji: 한자 정보
+    ///   - isCorrect: 정답 여부
+    ///   - isBookmark: 북마크 여부
     func checkAnswer(kanji: Kanji, isCorrect: QuestionState, isBookmark: Bool) {
         if let current = state.currentLearningKanjiList {
             let result = KanjiLearningResult(
@@ -124,6 +138,7 @@ extension KanjiViewModel {
         }
     }
     
+    /// 학습이 끝나면 로컬 저장소에 학습 정보를 저장하는 메서드
     func finishLearning() {
         let successCount = state.pendingResults.count(where: { $0.state == .success })
         
@@ -161,6 +176,9 @@ extension KanjiViewModel {
         resetTimer()
     }
     
+    /// 한자의 북마크 여부를 확인하는 메서드
+    /// - Parameter kanji: 한자 정보
+    /// - Returns: 북마크 여부
     func checkBookmarked(kanji: Kanji) -> Bool {
         return state.bookmarkKanjiList.contains(where: {
             $0.kanji == kanji.kanji
@@ -171,6 +189,8 @@ extension KanjiViewModel {
 // MARK: - 학습 시간 관련 Method
 
 extension KanjiViewModel {
+    
+    /// 타이머를 작동시키는 메서드
     func startTimer() {
         timer?.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
@@ -179,11 +199,13 @@ extension KanjiViewModel {
         }
     }
     
+    /// 타이머를 정지 시키는 메서드
     func pauseTimer() {
         timer?.invalidate()
         timer = nil
     }
     
+    /// 타이머를 초기화 시키는 메서드
     func resetTimer() {
         timer?.invalidate()
         timer = nil
@@ -195,6 +217,9 @@ extension KanjiViewModel {
 // MARK: - 단어장 관련 Method
 
 extension KanjiViewModel {
+    
+    /// 학습한 한자 단어장의 검색 결과를 업데이트 시키는 메서드
+    /// - Parameter input: 검색어
     func updateLearnedSearch(for input: String) {
         searchTask?.cancel()
         
@@ -210,6 +235,10 @@ extension KanjiViewModel {
         }
     }
     
+    /// 모든 단어장의 검색 결과를 업데이트 시키는 메서드
+    /// - Parameters:
+    ///   - input: 검색어
+    ///   - segmentIndex: 현재 선택된 JLPT 급수(Index)
     func updateVocaSearch(for input: String, segmentIndex: Int) {
         searchTask?.cancel()
         
@@ -228,6 +257,7 @@ extension KanjiViewModel {
         }
     }
     
+    /// 검색 결과를 초기화하는 메서드
     @MainActor
     func resetSearch() {
         searchTask?.cancel()
@@ -235,6 +265,9 @@ extension KanjiViewModel {
         state.searchVocaKanjiList.removeAll()
     }
     
+    /// 검색어에 따라 학습한 한자의 필터링을 실행하는 메서드
+    /// - Parameter input: 검색어
+    /// - Returns: 필터링된 학습 한자 목록
     private func performFilter(for input: String) async -> [LearningKanji] {
         let query = input.trimmingCharacters(in: .whitespaces).lowercased()
         
@@ -244,6 +277,11 @@ extension KanjiViewModel {
         }
     }
     
+    /// 검색어에 따라 모든 한자의 필터링을 실행하는 메서드
+    /// - Parameters:
+    ///   - input: 검색어
+    ///   - segmentIndex: JLPT 급수(Index)
+    /// - Returns: 필터링된 한자 목록
     private func performFilter(for input: String, segmentIndex: Int) async -> [Kanji] {
         let grade = JLPTGrade.allCases[segmentIndex]
         let targetList = state.cachedKanjisByGrade[grade] ?? []
@@ -256,6 +294,9 @@ extension KanjiViewModel {
         return targetList.filter { $0.searchKey.contains(query) }
     }
     
+    /// 한자 목록을 히라가나 행에 맞춰 그룹화 해주는 메서드
+    /// - Parameter list: 한자 목록
+    /// - Returns: 그룹화된 한자 목록 => [(String, [Kanji])]
     func groupedList(_ list: [Kanji]) -> [(String, [Kanji])] {
         let dic = Dictionary(grouping: list, by: { getHiraganaRow(for: $0.hiragana) })
         return dic.map {
@@ -264,6 +305,9 @@ extension KanjiViewModel {
         .sorted(by: { $0.title < $1.title })
     }
     
+    /// 한자 목록을 히라가나 행에 맞춰 그룹화 해주는 메서드
+    /// - Parameter list: 학습한 한자 목록
+    /// - Returns: 그룹화된 학습 한자 목록 => [(String, [LearningKanji])]
     func groupedLearnedList(_ list: [LearningKanji]) -> [(String, [LearningKanji])] {
         let dic = Dictionary(grouping: list, by: { getHiraganaRow(for: $0.kanji.hiragana) })
         return dic.map { item in
@@ -272,6 +316,9 @@ extension KanjiViewModel {
         .sorted(by: { $0.title < $1.title })
     }
     
+    /// 주입된 단어의 히라가나 행을 구분하는 메서드
+    /// - Parameter string: 일본어 단어(String)
+    /// - Returns: 히라가나 행(String)
     private func getHiraganaRow(for string: String?) -> String {
         guard let first = string?.first else { return "기타" }
         let char = String(first)
@@ -308,6 +355,8 @@ extension KanjiViewModel {
 
 @MainActor
 extension KanjiViewModel {
+    /// Toast Message UI를 표시하는 메서드
+    /// - Parameter message: 표시할 메세지
     func showToastAlarm(message: String) {
         toastAlarm.message = message
         

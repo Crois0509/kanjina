@@ -8,6 +8,8 @@
 import SwiftUI
 import Combine
 
+// MARK: - AppCoordinator Model
+
 final class AppCoordinator: ObservableObject {
     @Published var mainCoordinator = MainCoordinator()
     

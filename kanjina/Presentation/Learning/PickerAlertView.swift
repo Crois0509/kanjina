@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - PickerAlert View
+
+/// JLPT 레벨을 선택하는 Alert UI
 struct PickerAlertView: View {
     
     @Binding var isShowing: Bool
@@ -16,7 +19,7 @@ struct PickerAlertView: View {
     let content: String
     let grade: JLPTGrade
     let maxLevel: Int
-    let action: () -> Void
+    let action: () -> Void // 확인 버튼 선택 시 액션
     
     var body: some View {
         ZStack(alignment: .center) {
@@ -106,6 +109,8 @@ struct PickerAlertView: View {
         .ignoresSafeArea()
     }
 }
+
+// MARK: - PickerAlert View Private UI
 
 fileprivate struct AlertButton: View {
     

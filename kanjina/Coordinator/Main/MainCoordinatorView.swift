@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+// MARK: - MainCoordinator Tab Enum
+
 enum TabSelection: CaseIterable {
     case learning
     case vocabulary
     case setting
 }
+
+// MARK: - MainCoordinator View
 
 struct MainCoordinatorView: View {
     

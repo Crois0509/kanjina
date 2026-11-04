@@ -8,6 +8,8 @@
 import SwiftUI
 import CoreData
 
+// MARK: - AppCoordinator View
+
 struct AppCoordinatorView: View {
     
     @StateObject private var appCoordinator: AppCoordinator

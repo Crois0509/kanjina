@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 
+/// 공용 툴바 상태 객체
 final class ToolBarState: ObservableObject {
     @Published var isRightButtonVisible: Bool = false
     @Published var rightButtonIcon: String = ""

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - BookmarkVoca View
+
 struct BookmarkVocaView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
@@ -17,6 +19,7 @@ struct BookmarkVocaView: View {
     @State private var isMemorizationMode: Bool = false
     @State private var searchInput = ""
     
+    // 한자의 검색, 필터링 결과 값을 담는 배열
     private var resultList: [(title: String, items: [Kanji])] {
         let query = searchInput.trimmingCharacters(in: .whitespaces).lowercased()
         guard !query.isEmpty else {
@@ -30,6 +33,7 @@ struct BookmarkVocaView: View {
         GeometryReader { geometry in
             ZStack(alignment: .top) {
                 VStack(alignment: .center, spacing: 0) {
+                    // 검색바
                     CommonSearchView(
                         input: $searchInput,
                         placeholder: "한자, 뜻, 히라가나 등으로 검색해 주세요"
@@ -37,6 +41,7 @@ struct BookmarkVocaView: View {
                     .padding(.horizontal, 20)
                     .padding(.bottom, 12)
                     
+                    // 한자 리스트
                     if resultList.isEmpty {
                         Text(searchInput.isEmpty ? "북마크된 단어가 없습니다." : "검색 결과가 없습니다.")
                             .multilineTextAlignment(.center)
@@ -103,7 +108,12 @@ struct BookmarkVocaView: View {
     }
 }
 
+// MARK: - BookmarkVoca View Private Method
+
 private extension BookmarkVocaView {
+    /// 툴바 버튼을 설정하는 메서드
+    /// - **북마크된 한자가 있는 경우**: 북마크 한자를 활용한 학습모드 기능 설정
+    /// - **북마크된 한자가 없는 경우**: 경고 Alert 설정
     func setToolbarState() {
         toolbarState.isRightButtonVisible = true
         toolbarState.requiresAlert = true
@@ -122,6 +132,8 @@ private extension BookmarkVocaView {
         }
     }
     
+    /// 한자의 상세 설명을 담은 시트를 설정하는 메서드
+    /// - Parameter item: 한자 정보
     func setSheetState(_ item: Kanji) {
         sheetState.isBookmarked = true
         sheetState.kanji = item

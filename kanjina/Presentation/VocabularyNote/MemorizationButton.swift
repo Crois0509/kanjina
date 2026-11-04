@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 단어장 전용 학습모드 on/off 버튼 UI
 struct MemorizationButton: View {
     
     @Binding var isMemorizationMode: Bool

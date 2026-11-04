@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+// MARK: - Coordinator Protocol
+
 protocol Coordinator: ObservableObject {
-    associatedtype Route: Hashable
+    associatedtype Route: Hashable // 이동할 경로
     
     var path: Binding<NavigationPath> { get }
     

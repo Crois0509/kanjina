@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - LearningCoordinator View
+
 struct LearningCoordinatorView: View {
     
     @EnvironmentObject private var coordinator: LearningCoordinator

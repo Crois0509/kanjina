@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 툴 바
 struct CommonToolbar: ToolbarContent {
     
     let onBack: () -> Void

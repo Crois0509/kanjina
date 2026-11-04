@@ -9,20 +9,23 @@ import SwiftUI
 import Combine
 import CoreData
 
+/// AppViewModel에서 사용되는 App이 가질 Status 객체
 struct AppState: Hashable {
     var jlpt: [[KanjiList]] = [] // 전체 한자 리스트
     var numberOfKanjiByGrade: [Int] = [] // 급수별 한자 수
     var learningKanjiList: [LearningKanji] = [] // 학습한 한자 리스트
     var dailyStudySummary: [DailyStudy] = [] // 학습한 시간 리스트
     var bookmarkKanjiList: [Kanji] = [] // 북마크한 한자 리스트
-    var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:]
+    var cachedKanjisByGrade: [JLPTGrade: [Kanji]] = [:] // 최적화된 급수별 한자 목록
 }
+
+// MARK: - AppViewModel
 
 final class AppViewModel: ObservableObject {
     @Published var state = AppState()
     
-    private let kanjiManager: KanjiDataManager
-    private let coreDataManager: CoreDataManager
+    private let kanjiManager: KanjiDataManager // 한자 정보를 불러오는 관리 객체
+    private let coreDataManager: CoreDataManager // 로컬 데이터 저장 객체
         
     init(
         kanjiManager: KanjiDataManager,
@@ -33,7 +36,10 @@ final class AppViewModel: ObservableObject {
     }
 }
 
+// MARK: - AppViewModel Method
+
 extension AppViewModel {
+    
     /// 모든 한자 리스트를 불러오는 메서드
     func fetchKanjiData() async {
         do {
@@ -47,6 +53,7 @@ extension AppViewModel {
         }
     }
     
+    /// 한자 목록의 중복을 제거하고 최적화하는 메서드
     func buildCacheForKanjiList() {
         for (index, levelLists) in state.jlpt.enumerated() {
             let grade = JLPTGrade.allCases[index]
@@ -64,6 +71,7 @@ extension AppViewModel {
         state.dailyStudySummary = coreDataManager.fetchLearningWeeklyTimeList()
     }
     
+    /// 북마크한 한자 목록을 불러오는 메서드
     func fetchBookmarkKanjiList() {
         state.bookmarkKanjiList = coreDataManager.fetchBookmarkKanjis().removingDuplicates()
     }

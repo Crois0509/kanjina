@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - Complete View
+
 struct CompleteView: View {
     
     @EnvironmentObject private var viewModel: KanjiViewModel
@@ -115,6 +117,8 @@ struct CompleteView: View {
         }
     }
 }
+
+// MARK: - Compleate View Private UI
 
 fileprivate struct ActiveButton: View {
     

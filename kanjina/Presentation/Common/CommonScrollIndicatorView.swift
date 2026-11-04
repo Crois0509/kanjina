@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 스크롤 인디케이터 뷰
 struct CommonScrollIndicatorView: View {
     
     let indicatorTitles: [String]

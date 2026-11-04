@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 검색 뷰
 struct CommonSearchView: View {
     
     @Binding var input: String

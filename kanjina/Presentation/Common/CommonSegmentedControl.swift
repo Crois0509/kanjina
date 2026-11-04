@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 공용 세그먼트 컨트롤 뷰
 struct CommonSegmentedControl: View {
     
     @Binding var selection: Int

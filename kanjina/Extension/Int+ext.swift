@@ -8,6 +8,8 @@
 import Foundation
 
 extension Int {
+    
+    /// Int 값을 분/초로 바꾸기 위한 편의 메서드
     var formatTime: String {
         let m = self / 60
         let s = self % 60

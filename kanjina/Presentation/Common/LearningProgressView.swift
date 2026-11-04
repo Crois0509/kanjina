@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 문제 상태
 enum QuestionState: CaseIterable {
     case success
     case trial
@@ -25,11 +26,13 @@ enum QuestionState: CaseIterable {
     }
 }
 
+/// 프로그레스 상태
 struct ProgressState: Hashable {
     let id: Int
     var qState: QuestionState
 }
 
+/// 학습 진행도 그래프 뷰
 struct LearningProgressView: View {
     
     let maxPoint: Int

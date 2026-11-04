@@ -8,6 +8,8 @@
 import Foundation
 import CoreData
 
+// MARK: - CoreData Manager
+
 struct CoreDataManager {
     let container: NSPersistentContainer
     
@@ -27,6 +29,12 @@ struct CoreDataManager {
 // MARK: - CoreData Create Method
 
 extension CoreDataManager {
+    
+    /// 학습 결과를 저장하는 메서드
+    /// - Parameters:
+    ///   - grade: JLPT 급수
+    ///   - level: 급수별 레벨
+    ///   - results: 학습 결과
     func saveLearningRecord(grade: JLPTGrade, level: Int, results: [KanjiLearningResult]) {
         guard !results.isEmpty else { return }
         let context = container.viewContext
@@ -76,6 +84,8 @@ extension CoreDataManager {
         }
     }
     
+    /// 학습 시간을 저장하는 메서드
+    /// - Parameter study: 학습 결과
     func saveLearningTime(_ study: DailyStudy) {
         let context = container.viewContext
         let request: NSFetchRequest<DailyStudySummary> = DailyStudySummary.fetchRequest()
@@ -106,6 +116,10 @@ extension CoreDataManager {
         }
     }
     
+    /// 북마크한 한자를 업데이트 하는 메서드
+    /// - Parameters:
+    ///   - item: 업데이트할 한자
+    ///   - isBookmark: 북마크 여부
     func updateBookmarkedKanji(_ item: Kanji, isBookmark: Bool) {
         let context = container.viewContext
         let fetchRequest = KanjiEntity.fetchRequest()
@@ -141,6 +155,8 @@ extension CoreDataManager {
 
 extension CoreDataManager {
     
+    /// 모든 학습 내용을 불러오는 메서드
+    /// - Returns: 저장된 모든 학습 내용
     func fetchAllRecords() -> [LearningKanji] {
         let request: NSFetchRequest<KanjiEntity> = KanjiEntity.fetchRequest()
         
@@ -180,6 +196,8 @@ extension CoreDataManager {
         }
     }
     
+    /// 학습 시간 등의 학습 현황을 불러오는 메서드
+    /// - Returns: 저장된 학습 현황
     func fetchLearningTimeList() -> [DailyStudy] {
         let request = DailyStudySummary.fetchRequest()
         
@@ -205,6 +223,8 @@ extension CoreDataManager {
         }
     }
     
+    /// 주간 학습 현황을 불러오는 메서드
+    /// - Returns: 저장된 주간 학습 현황
     func fetchLearningWeeklyTimeList() -> [DailyStudy] {
         let request = DailyStudySummary.fetchRequest()
         
@@ -240,6 +260,8 @@ extension CoreDataManager {
         }
     }
     
+    /// 북마크된 한자 목록을 불러오는 메서드
+    /// - Returns: 북마크된 한자 목록
     func fetchBookmarkKanjis() -> [Kanji] {
         let fetchRequest = KanjiEntity.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "bookmark == true")
@@ -278,11 +300,14 @@ extension CoreDataManager {
 // MARK: - CoreData Delete Method
 
 extension CoreDataManager {
+    
     enum EntityType: String {
         case kanji = "KanjiEntity"
         case learningTime = "DailyStudySummary"
     }
     
+    /// CoreData에 저장된 지정 Entity의 모든 데이터를 삭제하는 메서드
+    /// - Parameter entity: 삭제할 Entity 타입
     func removeAllData(entity: EntityType) {
         let context = container.viewContext
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity.rawValue)

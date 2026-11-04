@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - VocabularyNoteCoordinator View
+
 struct VocabularyNoteCoordinatorView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator

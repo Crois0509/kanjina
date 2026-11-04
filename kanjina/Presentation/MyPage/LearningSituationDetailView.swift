@@ -8,6 +8,8 @@
 import SwiftUI
 import Charts
 
+// MARK: - LearningSituatinoDetail View
+
 struct LearningSituationDetailView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
@@ -41,6 +43,9 @@ struct LearningSituationDetailView: View {
     }
 }
 
+// MARK: - LearningSituation View Private UI
+
+/// JLPT 급수별 학습 문제 수를 원형 그래프로 표시하는 UI
 fileprivate struct LearningReportView: View {
     
     let data: [(type: String, count: Int)]
@@ -111,6 +116,7 @@ fileprivate struct LearningReportView: View {
     }
 }
 
+/// 일주일간 학습 시작을 막대 그래프로 표시하는 UI
 fileprivate struct LearningTimeReport: View {
     
     private let data: [DailyStudy]
@@ -145,6 +151,9 @@ fileprivate struct LearningTimeReport: View {
         .shadow(color: .black.opacity(0.2), radius: 2)
     }
     
+    /// Int 타입의 데이터를 시간/분 형식의 String 데이터로 변환하는 편의 메서드
+    /// - Parameter time: 시간(분)
+    /// - Returns: \(hour)시간 \(minute)분 형식의 String 데이터
     private func createAnnotationText(_ time: Int) -> String {
         var minute = time / 60
         let second = time % 60

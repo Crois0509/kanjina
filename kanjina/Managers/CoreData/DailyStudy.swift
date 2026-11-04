@@ -15,6 +15,7 @@ struct DailyStudy: Hashable {
 }
 
 extension DailyStudy {
+    // UI 테스트를 위한 Mock 데이터
     static var mockData: [Self] {
         let calendar = Calendar.current
         let today = Date()

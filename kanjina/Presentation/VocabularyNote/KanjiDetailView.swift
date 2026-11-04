@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - KanjiDetail View
+
+/// 한자 상세정보를 표시하는 Sheet 전용 UI
 struct KanjiDetailView: View {
     
     @EnvironmentObject private var viewModel: KanjiViewModel
@@ -110,6 +113,8 @@ struct KanjiDetailView: View {
         }
     }
 }
+
+// MARK: - KanjiDetail View Private UI
 
 fileprivate struct CardView: View {
     

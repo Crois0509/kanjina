@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 단어장 타입
 enum VocaType {
     case all
     case learned
@@ -24,6 +25,7 @@ enum VocaType {
     }
 }
 
+/// 단어장을 나누기 위한 객체 타입
 struct Note: Hashable {
     let id = UUID()
     let title: String
@@ -32,11 +34,14 @@ struct Note: Hashable {
     let type: VocaType
 }
 
+// MARK: - VocabularyNote View
+
 struct VocabularyNoteView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
     @EnvironmentObject private var viewModel: KanjiViewModel
     
+    // 표시할 단어장 목록 배열
     private let noteList: [Note] = [
         .init(
             title: "단어 사전",
@@ -91,6 +96,9 @@ struct VocabularyNoteView: View {
     }
 }
 
+// MARK: - VocabularyNote View Private UI
+
+/// 단어장 카드 UI
 fileprivate struct VocaButtonView: View {
     var title: String
     var description: String
