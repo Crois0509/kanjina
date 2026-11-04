@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AllVocaList: View {
+struct AllVocaListView: View {
     
     @EnvironmentObject private var coordinator: VocabularyNoteCoordinator
     @EnvironmentObject private var viewModel: KanjiViewModel
@@ -101,7 +101,7 @@ struct AllVocaList: View {
     }
 }
 
-private extension AllVocaList {
+private extension AllVocaListView {
     func setSheetState(_ item: Kanji) {
         sheetState.kanji = item
         sheetState.isBookmarked = viewModel.checkBookmarked(kanji: item)

@@ -54,7 +54,7 @@ extension VocabularyNoteCoordinator {
             LearnedVocaView()
             
         case .allVoca:
-            AllVocaList()
+            AllVocaListView()
             
         case .bookmark:
             BookmarkVocaView()
